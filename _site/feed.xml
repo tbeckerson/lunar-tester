@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://lunar-linux.org//feed.xml" rel="self" type="application/atom+xml" /><link href="https://lunar-linux.org//" rel="alternate" type="text/html" /><updated>2021-05-23T19:51:08-03:00</updated><id>https://lunar-linux.org//feed.xml</id><title type="html">Lunar Linux</title><subtitle>Lunar is an advanced source-based Linux distribution.</subtitle><entry><title type="html">contact</title><link href="https://lunar-linux.org//0004/04/03/contact.html" rel="alternate" type="text/html" title="contact" /><published>0004-04-03T23:59:12-04:14</published><updated>0004-04-03T23:59:12-04:14</updated><id>https://lunar-linux.org//0004/04/03/contact</id><content type="html" xml:base="https://lunar-linux.org//0004/04/03/contact.html">&lt;p&gt;_how do people talk to us? Right now there’s IRC and an email(?).&lt;/p&gt;
+
+&lt;p&gt;The bigger discussion: the type of user we attract will have different ways of communicating. Lots of younger users don’t use email - their email is a burner account for junk and registrations. Lot’s of them don’t know about IRC at all.&lt;/p&gt;
+
+&lt;p&gt;Do we want a social media presence, like a Facebook page? Should we start a Discord server? A subreddit? All of those will make us more accessible, and might bring more interested users (and maybe help), but also require someone to be attentive to them._&lt;/p&gt;
+
+&lt;div class=&quot;flex flex-column flex-row-l items-center justify-around font-space tc&quot;&gt;
+  &lt;a class=&quot;pv3 ph4 f3 white mw6&quot; href=&quot;#&quot;&gt;
+    &lt;figure&gt;&lt;img src=&quot;assets/images/irssi-white.svg&quot; alt=&quot;Internet Relay Chat&quot; class=&quot;w-50&quot; /&gt;
+    &lt;figcaption&gt;#lunar&lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/a&gt;
+  &lt;a class=&quot;pv3 ph4 f3 white mw6&quot; href=&quot;#&quot;&gt;
+    &lt;figure&gt;&lt;img src=&quot;assets/images/discord-white.svg&quot; alt=&quot;discord&quot; class=&quot;w-50&quot; /&gt;
+    &lt;figcaption&gt;#lunar&lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/a&gt;
+  &lt;a class=&quot;pv3 ph4 f3 white mw6&quot; href=&quot;mailto:#&quot;&gt;
+    &lt;figure&gt;&lt;img src=&quot;assets/images/email-white.svg&quot; alt=&quot;email&quot; class=&quot;w-50&quot; /&gt;
+    &lt;figcaption&gt;info@lunar-linux.org&lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;</content><author><name></name></author><summary type="html">_how do people talk to us? Right now there’s IRC and an email(?). The bigger discussion: the type of user we attract will have different ways of communicating. Lots of younger users don’t use email - their email is a burner account for junk and registrations. Lot’s of them don’t know about IRC at all. Do we want a social media presence, like a Facebook page? Should we start a Discord server? A subreddit? All of those will make us more accessible, and might bring more interested users (and maybe help), but also require someone to be attentive to them._ #lunar #lunar info@lunar-linux.org</summary></entry><entry><title type="html">download</title><link href="https://lunar-linux.org//0003/03/02/download.html" rel="alternate" type="text/html" title="download" /><published>0003-03-02T23:59:12-04:14</published><updated>0003-03-02T23:59:12-04:14</updated><id>https://lunar-linux.org//0003/03/02/download</id><content type="html" xml:base="https://lunar-linux.org//0003/03/02/download.html">&lt;p&gt;&lt;em&gt;how often should there be a release? It’s good to have a stable reference point, but the first time you ‘lunar update’, you’re effectively using the nightly. How old can it be before users don’t want to install it?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;sample text below:&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lunar is a rolling-release distribution.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You only need to need to install Lunar once, then update your system using the package manager. You’ll always have the latest version.&lt;/p&gt;
+
+&lt;p&gt;A release iso and a nightly iso are available. These provide the same programs as an installed and fully updated system on the day the iso was generated.&lt;/p&gt;
+
+&lt;p&gt;The release iso is known to be stable, and has been extensively tested. It will have older versions of &lt;em&gt;lunar core.&lt;/em&gt;
+The nightly iso has newer versions of our core programs, but has less quality testing and may not be as stable.&lt;/p&gt;
+
+&lt;div class=&quot;flex flex-row items-center justify-around font-space&quot;&gt;
+   &lt;a class=&quot;pv4 ph5 f3 dim bg-dark-blue white&quot; href=&quot;#&quot;&gt;Release&lt;/a&gt;
+   &lt;a class=&quot;pv4 ph5 f3 dim bg-dark-red white&quot; href=&quot;#&quot;&gt;Nightly&lt;/a&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">how often should there be a release? It’s good to have a stable reference point, but the first time you ‘lunar update’, you’re effectively using the nightly. How old can it be before users don’t want to install it? sample text below: Lunar is a rolling-release distribution. You only need to need to install Lunar once, then update your system using the package manager. You’ll always have the latest version. A release iso and a nightly iso are available. These provide the same programs as an installed and fully updated system on the day the iso was generated. The release iso is known to be stable, and has been extensively tested. It will have older versions of lunar core. The nightly iso has newer versions of our core programs, but has less quality testing and may not be as stable. Release Nightly</summary></entry><entry><title type="html">version info</title><link href="https://lunar-linux.org//0002/02/01/version.html" rel="alternate" type="text/html" title="version info" /><published>0002-02-01T23:59:12-04:14</published><updated>0002-02-01T23:59:12-04:14</updated><id>https://lunar-linux.org//0002/02/01/version</id><content type="html" xml:base="https://lunar-linux.org//0002/02/01/version.html">&lt;p&gt;_what programs go here? the system level programs (kernel, gcc, etc) or user level applications (web browsers, music players, etc).&lt;/p&gt;
+
+&lt;p&gt;Would a list of user level applications be more useful? Both?_&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;sample text below:&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lunar uses up-to-date versions of software, without risking stability.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bash : 123
+
+kernel : 123
+
+mesa-lib : 123
+
+llvm : 123
+
+firefox : 123
+
+gcc : 123
+
+xfce4 : 123
+
+plasma : 123
+
+GNOME : 123
+
+gtk : 123
+
+qt : 123
+
+libreoffice : 123
+
+inkscape : 123
+
+scribus : 123
+
+php : 123
+
+perl : 123
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">_what programs go here? the system level programs (kernel, gcc, etc) or user level applications (web browsers, music players, etc). Would a list of user level applications be more useful? Both?_ sample text below: Lunar uses up-to-date versions of software, without risking stability. bash : 123 kernel : 123 mesa-lib : 123 llvm : 123 firefox : 123 gcc : 123 xfce4 : 123 plasma : 123 GNOME : 123 gtk : 123 qt : 123 libreoffice : 123 inkscape : 123 scribus : 123 php : 123 perl : 123</summary></entry><entry><title type="html">about</title><link href="https://lunar-linux.org//0000/12/31/about.html" rel="alternate" type="text/html" title="about" /><published>0000-12-31T23:59:12-04:14</published><updated>0000-12-31T23:59:12-04:14</updated><id>https://lunar-linux.org//0000/12/31/about</id><content type="html" xml:base="https://lunar-linux.org//0000/12/31/about.html">&lt;p&gt;_This part is important - who are we trying to attract? Lunar can be good for many people, but we need a focus. Can beginners install and maintain Lunar? Do we want developers and sysadmins looking for detailed control over their system? Users with older computers looking to optimize their system? Distro hoppers looking for something new? People tired of Gentoo? ;)&lt;/p&gt;
+
+&lt;p&gt;sample text below:_&lt;/p&gt;
+
+&lt;p&gt;Lunar is a rolling-release, source-based Linux distribution. You begin by installing the &lt;em&gt;lunar core,&lt;/em&gt; a minimal command-line only system, with the tools to build the full experience you want.&lt;/p&gt;
+
+&lt;h4 id=&quot;stable--trustworthy&quot;&gt;STABLE &amp;amp; TRUSTWORTHY&lt;/h4&gt;
+&lt;p&gt;We use up-to-date software with very little changes from upstream. Our goal is a stable and robust system that won’t ever break on an update.&lt;/p&gt;
+
+&lt;h4 id=&quot;versatile--flexible&quot;&gt;VERSATILE &amp;amp; FLEXIBLE&lt;/h4&gt;
+&lt;p&gt;Our &lt;em&gt;lunar&lt;/em&gt; package management system is written entirely is bash, and it’s both powerful and easy to learn. Adding your own packages is a simple process.&lt;/p&gt;
+
+&lt;h4 id=&quot;fast--bloat-free&quot;&gt;FAST &amp;amp; BLOAT-FREE&lt;/h4&gt;
+&lt;p&gt;Hardware optimizations will make your system quick and responsive. Clear choices for optional dependencies will ensure a system that only contains what you ask for.&lt;/p&gt;</content><author><name></name></author><summary type="html">_This part is important - who are we trying to attract? Lunar can be good for many people, but we need a focus. Can beginners install and maintain Lunar? Do we want developers and sysadmins looking for detailed control over their system? Users with older computers looking to optimize their system? Distro hoppers looking for something new? People tired of Gentoo? ;) sample text below:_ Lunar is a rolling-release, source-based Linux distribution. You begin by installing the lunar core, a minimal command-line only system, with the tools to build the full experience you want. STABLE &amp;amp; TRUSTWORTHY We use up-to-date software with very little changes from upstream. Our goal is a stable and robust system that won’t ever break on an update. VERSATILE &amp;amp; FLEXIBLE Our lunar package management system is written entirely is bash, and it’s both powerful and easy to learn. Adding your own packages is a simple process. FAST &amp;amp; BLOAT-FREE Hardware optimizations will make your system quick and responsive. Clear choices for optional dependencies will ensure a system that only contains what you ask for.</summary></entry></feed>

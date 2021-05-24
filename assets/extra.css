@@ -1,0 +1,64 @@
+---
+---
+
+html {
+  scroll-behavior: smooth;
+}
+.bg-fixed {
+   background-attachment: fixed;
+   }
+.bg-scroll {
+   background-attachment: scroll;
+   }
+{% assign bg_image = "01, 02, 03, 04, 05" | split: ", "  | sample %}
+
+.bg-01 {
+   background-image:url('images/bg-{{ bg_image }}-2x.jpg');
+   overflow-x:hidden;
+   }
+.bg-02 {
+   background-image:url('images/bg-0{{ bg_image | plus:1 }}-2x.jpg');
+   overflow-x:hidden;
+   }
+.bg-03 {
+   background-image:url('images/bg-0{{ bg_image | plus:2 }}-2x.jpg');
+   overflow-x:hidden;
+   }
+h1,h2,h3,h4,h5,h6 {
+   padding: 1rem 0 0 0;
+   }
+.font-sora {
+font-family: 'Sora', sans-serif;
+}
+.font-space {
+font-family: 'Space Grotesk', sans-serif;
+}
+.font-catamaran {
+font-family: 'Catamaran', sans-serif;
+}
+.font-kanit {
+font-family: 'Kanit', sans-serif;
+}
+@media 
+  (min-device-pixel-ratio: 2), 
+  (min-resolution: 192dpi) { 
+  body {
+  background-image:url('images/bg-{{ bg_image }}-2x.jpg')
+   }
+   
+@media 
+  (min-device-pixel-ratio: 3), 
+  (min-resolution: 384dpi) { 
+  body {
+  background-image:url('images/bg-{{ bg_image }}-3x.jpg')
+   }   
+@media 
+  (min-device-pixel-ratio: 3), 
+  (min-resolution: 512dpi) { 
+  body {
+  background-image:url('images/bg-{{ bg_image }}-4x.jpg')
+   }
+@media
+   (max-width: 1024px) {
+   
+   }

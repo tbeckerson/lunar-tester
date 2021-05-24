@@ -1,0 +1,25 @@
+---
+layout: post-solid-bg
+title: download
+bg-color: bg-washed-yellow
+tx-color: dark-gray
+---
+
+_how often should there be a release? It's good to have a stable reference point, but the first time you 'lunar update', you're effectively using the nightly. How old can it be before users don't want to install it?_
+
+_sample text below:_
+
+**Lunar is a rolling-release distribution.**
+
+You only need to need to install Lunar once, then update your system using the package manager. You'll always have the latest version.
+
+A release iso and a nightly iso are available. These provide the same programs as an installed and fully updated system on the day the iso was generated.
+
+The release iso is known to be stable, and has been extensively tested. It will have older versions of _lunar core._
+The nightly iso has newer versions of our core programs, but has less quality testing and may not be as stable.
+
+
+<div class="flex flex-row items-center justify-around font-space">
+   <a class="pv4 ph5 f3 dim bg-dark-blue white" href="#">Release</a>
+   <a class="pv4 ph5 f3 dim bg-dark-red white" href="#">Nightly</a>
+</div>

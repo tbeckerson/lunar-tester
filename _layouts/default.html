@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<title>
+   {%if page.title %}
+       {{ page.title }}
+   {% else %}
+       {{ site.title }}
+   {% endif %}
+</title>
+
+<!-- CSS Reset -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+<!-- Tachyons CSS -->
+<link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
+
+<!-- Fonts from google -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;400;700&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;700&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;400;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;400;700&display=swap" rel="stylesheet">
+
+<!-- local CSS -->
+<link rel="stylesheet" href="assets/extra.css">
+
+</head>
+
+<body class="cover bg-moon-gray black font-space">
+
+{{ content }}
+{% for post in site.posts reversed %}
+{{ post }}
+{% endfor %}
+</body>
+</html>

@@ -1,0 +1,33 @@
+---
+layout: post-transp-bg
+title: contact
+bg-img: bg-03
+bg-transp: 210,30%,20%,0.8
+tx-color: near-white
+bg-attach: scroll;
+---
+
+_how do people talk to us? Right now there's IRC and an email(?).
+
+The bigger discussion: the type of user we attract will have different ways of communicating. Lots of younger users don't use email - their email is a burner account for junk and registrations. Lot's of them don't know about IRC at all.  
+
+Do we want a social media presence, like a Facebook page? Should we start a Discord server? A subreddit? All of those will make us more accessible, and might bring more interested users (and maybe help), but also require someone to be attentive to them._
+
+<div class="flex flex-column flex-row-l items-center justify-around font-space tc">
+  <a class="pv3 ph4 f3 white mw6" href="#">
+    <figure><img src="assets/images/irssi-white.svg" alt="Internet Relay Chat" class="w-50" />
+    <figcaption>#lunar</figcaption>
+    </figure>
+  </a>
+  <a class="pv3 ph4 f3 white mw6" href="#">
+    <figure><img src="assets/images/discord-white.svg" alt="discord" class="w-50" />
+    <figcaption>#lunar</figcaption>
+    </figure>
+  </a>
+  <a class="pv3 ph4 f3 white mw6" href="mailto:#">
+    <figure><img src="assets/images/email-white.svg" alt="email" class="w-50" />
+    <figcaption>info@lunar-linux.org</figcaption>
+    </figure>
+  </a>
+  
+</div>
