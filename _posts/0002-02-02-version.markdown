@@ -7,11 +7,10 @@ tx-color: dark-gray
 bg-attach: fixed
 ---
 
-*what programs go here? the system level programs (kernel, gcc, etc) or user level applications (web browsers, music players, etc).
+_what programs go here? the system level programs (kernel, gcc, etc) or user level applications (web browsers, music players, etc).
+Would a list of user level applications be more useful? Both?_
 
-Would a list of user level applications be more useful? Both?
-
-sample text below:*
+_sample text below:_
 
 **Lunar uses up-to-date versions of software, without risking stability.**
 
