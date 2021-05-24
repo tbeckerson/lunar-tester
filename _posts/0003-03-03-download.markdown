@@ -5,11 +5,11 @@ bg-color: bg-washed-yellow
 tx-color: dark-gray
 ---
 
-_how often should there be a release? It's good to have a stable reference point, but the first time you 'lunar update', you're effectively using the nightly. How old can it be before users don't want to install it?_
+*how often should there be a release? It's good to have a stable reference point, but the first time you 'lunar update', you're effectively using the nightly. How old can it be before users don't want to install it?
 
-_sample text below:_
+sample text below:*
 
-**Lunar is a rolling-release distribution.**
+**Lunar is a rolling-release distribution.*
 
 You only need to need to install Lunar once, then update your system using the package manager. You'll always have the latest version.
 

@@ -5,9 +5,9 @@ bg-color: bg-washed-yellow
 tx-color: dark-gray
 ---
 
-_This part is important - who are we trying to attract? Lunar can be good for many people, but we need a focus. Can beginners install and maintain Lunar? Do we want developers and sysadmins looking for detailed control over their system? Users with older computers looking to optimize their system? Distro hoppers looking for something new? People tired of Gentoo? ;)
+*This part is important - who are we trying to attract? Lunar can be good for many people, but we need a focus. Can beginners install and maintain Lunar? Do we want developers and sysadmins looking for detailed control over their system? Users with older computers looking to optimize their system? Distro hoppers looking for something new? People tired of Gentoo? ;)
 
-sample text below:_
+sample text below:*
 
 Lunar is a rolling-release, source-based Linux distribution. You begin by installing the _lunar core,_ a minimal command-line only system, with the tools to build the full experience you want.
 
