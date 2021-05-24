@@ -20,6 +20,6 @@ The nightly iso has newer versions of our core programs, but has less quality te
 
 
 <div class="flex flex-row items-center justify-around font-space">
-   <a class="pv4 ph5 f3 dim bg-dark-blue white" href="#">Release</a>
-   <a class="pv4 ph5 f3 dim bg-dark-red white" href="#">Nightly</a>
+   <a class="pv4-ns pv3 ph5-ns ph2 f3 link bg-animate bg-blue white hover-bg-light-green hover-dark-gray br3" href="#">Release</a>
+   <a class="pv4-ns pv3 ph5-ns ph2 f3 link bg-animate bg-blue white hover-bg-light-green hover-dark-gray br3" href="#">Nightly</a>
 </div>

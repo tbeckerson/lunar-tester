@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://lunar-linux.org//feed.xml" rel="self" type="application/atom+xml" /><link href="https://lunar-linux.org//" rel="alternate" type="text/html" /><updated>2021-05-24T16:20:33-03:00</updated><id>https://lunar-linux.org//feed.xml</id><title type="html">Lunar Linux</title><subtitle>Lunar is an advanced source-based Linux distribution.</subtitle><entry><title type="html">contact</title><link href="https://lunar-linux.org//0004/04/03/contact.html" rel="alternate" type="text/html" title="contact" /><published>0004-04-03T23:59:12-04:14</published><updated>0004-04-03T23:59:12-04:14</updated><id>https://lunar-linux.org//0004/04/03/contact</id><content type="html" xml:base="https://lunar-linux.org//0004/04/03/contact.html">&lt;p&gt;&lt;em&gt;how do people talk to us? Right now there’s IRC and an email(?). Do we want a social media presence, like a Facebook page? Should we start a Discord server? A subreddit? All of those will make us more accessible, and might bring more interested users (and maybe help), but also require someone to be attentive to them.&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://lunar-linux.org//feed.xml" rel="self" type="application/atom+xml" /><link href="https://lunar-linux.org//" rel="alternate" type="text/html" /><updated>2021-05-24T19:08:56-03:00</updated><id>https://lunar-linux.org//feed.xml</id><title type="html">Lunar Linux</title><subtitle>Lunar is an advanced source-based Linux distribution.</subtitle><entry><title type="html">contact</title><link href="https://lunar-linux.org//0004/04/03/contact.html" rel="alternate" type="text/html" title="contact" /><published>0004-04-03T23:59:12-04:14</published><updated>0004-04-03T23:59:12-04:14</updated><id>https://lunar-linux.org//0004/04/03/contact</id><content type="html" xml:base="https://lunar-linux.org//0004/04/03/contact.html">&lt;p&gt;&lt;em&gt;how do people talk to us? Right now there’s IRC and an email(?). Do we want a social media presence, like a Facebook page? Should we start a Discord server? A subreddit? All of those will make us more accessible, and might bring more interested users (and maybe help), but also require someone to be attentive to them.&lt;/em&gt;&lt;/p&gt;
 
 &lt;div class=&quot;flex flex-column flex-row-l items-center justify-around font-space tc&quot;&gt;
-  &lt;a class=&quot;pv3 ph4 f3 white mw6&quot; href=&quot;#&quot;&gt;
+  &lt;a class=&quot;br3 pv3 ph4 f3 white mw6 link bg-animate hover-bg-navy&quot; href=&quot;#&quot;&gt;
     &lt;figure&gt;&lt;img src=&quot;assets/images/irssi-white.svg&quot; alt=&quot;Internet Relay Chat&quot; class=&quot;w-50&quot; /&gt;
     &lt;figcaption&gt;#lunar&lt;/figcaption&gt;
     &lt;/figure&gt;
   &lt;/a&gt;
-  &lt;a class=&quot;pv3 ph4 f3 white mw6&quot; href=&quot;#&quot;&gt;
+  &lt;a class=&quot;br3 pv3 ph4 f3 white mw6 link bg-animate hover-bg-navy&quot; href=&quot;#&quot;&gt;
     &lt;figure&gt;&lt;img src=&quot;assets/images/discord-white.svg&quot; alt=&quot;discord&quot; class=&quot;w-50&quot; /&gt;
     &lt;figcaption&gt;#lunar&lt;/figcaption&gt;
     &lt;/figure&gt;
   &lt;/a&gt;
-  &lt;a class=&quot;pv3 ph4 f3 white mw6&quot; href=&quot;mailto:#&quot;&gt;
+  &lt;a class=&quot;br3 pv3 ph4 f3 white mw6 link bg-animate hover-bg-navy&quot; href=&quot;mailto:#&quot;&gt;
     &lt;figure&gt;&lt;img src=&quot;assets/images/email-white.svg&quot; alt=&quot;email&quot; class=&quot;w-50&quot; /&gt;
     &lt;figcaption&gt;info@lunar-linux.org&lt;/figcaption&gt;
     &lt;/figure&gt;
@@ -31,8 +31,8 @@
 The nightly iso has newer versions of our core programs, but has less quality testing and may not be as stable.&lt;/p&gt;
 
 &lt;div class=&quot;flex flex-row items-center justify-around font-space&quot;&gt;
-   &lt;a class=&quot;pv4 ph5 f3 dim bg-dark-blue white&quot; href=&quot;#&quot;&gt;Release&lt;/a&gt;
-   &lt;a class=&quot;pv4 ph5 f3 dim bg-dark-red white&quot; href=&quot;#&quot;&gt;Nightly&lt;/a&gt;
+   &lt;a class=&quot;pv4-ns pv3 ph5-ns ph2 f3 link bg-animate bg-blue white hover-bg-light-green hover-dark-gray br3&quot; href=&quot;#&quot;&gt;Release&lt;/a&gt;
+   &lt;a class=&quot;pv4-ns pv3 ph5-ns ph2 f3 link bg-animate bg-blue white hover-bg-light-green hover-dark-gray br3&quot; href=&quot;#&quot;&gt;Nightly&lt;/a&gt;
 &lt;/div&gt;</content><author><name></name></author><summary type="html">How often should there be a release? It’s good to have a stable reference point, but the first time you ‘lunar update’, you’re effectively using the nightly. How old can it be before users don’t want to install it? Is it for the benefit of the users, or the developers? sample text below: Lunar is a rolling-release distribution. You only need to need to install Lunar once, then update your system using the package manager. You’ll always have the latest version. A release iso and a nightly iso are available. These provide the same programs as an installed and fully updated system on the day the iso was generated. The release iso is known to be stable, and has been extensively tested. It will have older versions of lunar core. The nightly iso has newer versions of our core programs, but has less quality testing and may not be as stable. Release Nightly</summary></entry><entry><title type="html">version info</title><link href="https://lunar-linux.org//0002/02/01/version.html" rel="alternate" type="text/html" title="version info" /><published>0002-02-01T23:59:12-04:14</published><updated>0002-02-01T23:59:12-04:14</updated><id>https://lunar-linux.org//0002/02/01/version</id><content type="html" xml:base="https://lunar-linux.org//0002/02/01/version.html">&lt;p&gt;&lt;em&gt;what programs go here? the system level programs (kernel, gcc, etc) or user level applications (web browsers, music players, etc).
 Would a list of user level applications be more useful? Both?&lt;/em&gt;&lt;/p&gt;
 

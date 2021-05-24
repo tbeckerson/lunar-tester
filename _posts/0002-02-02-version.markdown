@@ -2,7 +2,7 @@
 layout: post-transp-bg
 title: version info
 bg-img: bg-02
-bg-transp: 210,40%,80%,0.7
+bg-transp: 210,40%,80%,0.8
 tx-color: dark-gray
 bg-attach: fixed
 ---

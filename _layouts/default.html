@@ -28,10 +28,17 @@
 </head>
 
 <body class="cover bg-moon-gray black font-space">
+<nav id="main_nav" class="fixed flex flex-row-ns flex-column items-center-ns justify-start">
+<!--<label for="menu"><img src="assets/images/lunar_logo-01-white.svg" alt="main menu" class="w2"/></label>
+-->
+<label for="menu-toggle" class="tc f2 pv2 ph3 bg-animate bg-light-blue hover-bg-navy navy hover-light-blue br3">&#9776;</label><input type="checkbox" id="menu-toggle" class="dn">
+  <div class="main-menu flex flex-column flex-row-ns items-start justify-start bg-light-blue mh3-ns br3">
+    <a href="" class="dib w-100 link b bg-animate hover-bg-navy hover-light-blue pv3 ph3 br3">archives</a>
+    <a href="" class="dib w-100 link b bg-animate hover-bg-navy hover-light-blue pv3 ph3 br3">github</a>
+    <a href="" class="dib w-100 link b bg-animate hover-bg-navy hover-light-blue pv3 ph3 br3">documentation</a>
+  </div>
+</nav>
 
 {{ content }}
-{% for post in site.posts reversed %}
-{{ post }}
-{% endfor %}
 </body>
 </html>

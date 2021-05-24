@@ -39,6 +39,18 @@ font-family: 'Catamaran', sans-serif;
 .font-kanit {
 font-family: 'Kanit', sans-serif;
 }
+/*the checkbox hack*/
+#menu-toggle:not(:checked) ~ .main-menu {
+  visibility:hidden;
+  opacity:0;
+  transition: opacity 0.5s;
+  }
+#menu-toggle:checked ~ .main-menu {
+  visibility:visible;
+  opacity:1;
+  transition: opacity 0.5s;
+  }   
+
 @media 
   (min-device-pixel-ratio: 2), 
   (min-resolution: 192dpi) { 
@@ -60,5 +72,5 @@ font-family: 'Kanit', sans-serif;
    }
 @media
    (max-width: 1024px) {
-   
+
    }
