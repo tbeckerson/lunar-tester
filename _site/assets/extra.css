@@ -10,15 +10,15 @@ html {
 
 
 .bg-01 {
-   background-image:url('images/bg-03-2x.jpg');
+   background-image:url('images/bg-05-2x.jpg');
    overflow-x:hidden;
    }
 .bg-02 {
-   background-image:url('images/bg-04-2x.jpg');
+   background-image:url('images/bg-06-2x.jpg');
    overflow-x:hidden;
    }
 .bg-03 {
-   background-image:url('images/bg-05-2x.jpg');
+   background-image:url('images/bg-07-2x.jpg');
    overflow-x:hidden;
    }
 h1,h2,h3,h4,h5,h6 {
@@ -37,6 +37,27 @@ font-family: 'Catamaran', sans-serif;
 font-family: 'Kanit', sans-serif;
 }
 
+/* lunar colours */
+.lunar-dark,
+.hover-lunar-dark
+{
+color: #162d50;
+}
+.bg-lunar-dark,
+.hover-bg-lunar-dark:hover {
+background-color: #162d50;
+}
+
+.lunar-light,
+.hover-lunar-light:hover
+{
+color: #7ca5cf;
+}
+.bg-lunar-light,
+.hover-bg-lunar-light:hover {
+background-color: #7ca5cf;
+}
+
 /*the checkbox hack*/
 #menu-toggle:not(:checked) ~ #main-menu {
   visibility:hidden;
@@ -48,25 +69,34 @@ font-family: 'Kanit', sans-serif;
   opacity:1;
   transition: opacity 0.5s;
   }   
+/* hide burger menu on big screens, show it on small */
+  #full-menu{ display:none;}
+
+@media
+  (min-width: 640px) {
+  #burger-menu {display:none;}
+  #full-menu {display:inline-flex;}
+}
+/* */
 
 @media 
   (min-device-pixel-ratio: 2), 
   (min-resolution: 192dpi) { 
   body {
-  background-image:url('images/bg-03-2x.jpg')
+  background-image:url('images/bg-05-2x.jpg')
    }
    
 @media 
   (min-device-pixel-ratio: 3), 
   (min-resolution: 384dpi) { 
   body {
-  background-image:url('images/bg-03-3x.jpg')
+  background-image:url('images/bg-05-3x.jpg')
    }   
 @media 
   (min-device-pixel-ratio: 3), 
   (min-resolution: 512dpi) { 
   body {
-  background-image:url('images/bg-03-4x.jpg')
+  background-image:url('images/bg-05-4x.jpg')
    }
 @media
    (max-width: 1024px) {

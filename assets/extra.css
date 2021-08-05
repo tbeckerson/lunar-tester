@@ -40,6 +40,27 @@ font-family: 'Catamaran', sans-serif;
 font-family: 'Kanit', sans-serif;
 }
 
+/* lunar colours */
+.lunar-dark,
+.hover-lunar-dark
+{
+color: #162d50;
+}
+.bg-lunar-dark,
+.hover-bg-lunar-dark:hover {
+background-color: #162d50;
+}
+
+.lunar-light,
+.hover-lunar-light:hover
+{
+color: #7ca5cf;
+}
+.bg-lunar-light,
+.hover-bg-lunar-light:hover {
+background-color: #7ca5cf;
+}
+
 /*the checkbox hack*/
 #menu-toggle:not(:checked) ~ #main-menu {
   visibility:hidden;
@@ -51,6 +72,15 @@ font-family: 'Kanit', sans-serif;
   opacity:1;
   transition: opacity 0.5s;
   }   
+/* hide burger menu on big screens, show it on small */
+  #full-menu{ display:none;}
+
+@media
+  (min-width: 640px) {
+  #burger-menu {display:none;}
+  #full-menu {display:inline-flex;}
+}
+/* */
 
 @media 
   (min-device-pixel-ratio: 2), 

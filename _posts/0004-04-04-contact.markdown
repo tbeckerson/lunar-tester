@@ -7,15 +7,12 @@ tx-color: near-white
 bg-attach: scroll;
 ---
 
-_how do people talk to us? Right now there's IRC and an email(?). Do we want a social media presence, like a Facebook page? Should we start a Discord server? A subreddit? All of those will make us more accessible, and might bring more interested users (and maybe help), but also require someone to be attentive to them._
-
-_sample text:_
 
 Lunar is entirely volunteer based, but we make every effort to be available to talk with. If we're not there, please leave a message and be patient.
 
 <div class="flex flex-column flex-row-l items-center justify-around font-space tc">
   <a class="br3 pv3 ph4 f3 white mw6 link bg-animate hover-bg-navy" href="#">
-    <figure><img src="assets/images/irssi-white.svg" alt="Internet Relay Chat" class="w-50" />
+    <figure><img src="assets/images/libera-white.svg" alt="Internet Relay Chat" class="w-50" />
     <figcaption>#lunar</figcaption>
     </figure>
   </a>
