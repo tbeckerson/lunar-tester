@@ -1,7 +1,7 @@
 ---
 layout: post-solid-bg
 title: about
-bg-color: bg-near-white
+bg-color: bg-lunar-light
 tx-color: dark-gray
 ---
 
