@@ -15,11 +15,8 @@
 
 <!-- Fonts from google -->
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;400;700&display=swap" rel="stylesheet"> 
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;700&display=swap" rel="stylesheet"> 
-<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;400;700;900&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;400;700&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@100;400;700&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&display=swap" rel="stylesheet">
 <!-- local CSS -->
 <link rel="stylesheet" href="assets/extra.css">
 
@@ -27,10 +24,8 @@
 
 <body class="cover bg-moon-gray black font-catamaran">
 <nav id="main_nav" class="fixed w-100">
-<!--
-<label for="menu-toggle" class="tc f2 pv2 ph3 bg-animate bg-light-blue hover-bg-navy navy hover-light-blue br3">&#9776;</label>
--->
-<section id="burger-menu" class=" flex flex-row-ns flex-column items-center-ns justify-start font-kanit"></div>
+
+<section id="burger-menu" class=" flex flex-row-ns flex-column items-center-ns justify-start font-maven tracked"></div>
 <label for="menu-toggle"><img src="assets/images/lunar_logo-01-white.svg" alt="main menu" class="w2"/></label><input type="checkbox" id="menu-toggle" class="dn">
   <div id="main-menu" class="flex flex-column flex-row-ns items-start justify-start bg-light-blue mh3-ns br1">
     <a href="" class="dib w-100 link b bg-animate hover-bg-navy hover-light-blue pv3 ph3 br1">archives</a>
@@ -39,7 +34,7 @@
   </div>
 </section>
 
-<section id="full-menu" class="flex-row items-center justify-between bg-lunar-light lunar-dark w-100 font-sora">
+<section id="full-menu" class="flex-row items-center justify-between bg-lunar-light lunar-dark w-100 font-maven tracked">
     <a href="https://lunar-linux.org/" class="dib link b bg-animate bg-lunar-light hover-bg-lunar-dark hover-lunar-light pv2 ph3 br2 mr-auto"><img src="assets/images/lunar_logo-01-white.svg" alt="main menu" class="w2"/></a>
     <a href="https://github.com/lunar-linux/" class="dib link b bg-animate hover-bg-lunar-dark hover-lunar-light pv3 ph3 br1">GITHUB</a>
     <a href="" class="dib link b bg-animate hover-bg-lunar-dark hover-lunar-light pv3 ph3 br1">DOCUMENTATION</a>
@@ -53,7 +48,7 @@
     <div id="left-lander" class="inline-flex flex-column items-center justify-center flex-shrink-1 flex-grow-0 w-50">
       <div id="logo" class="w-50 tc">
       <img class="w-100"  src="assets/images/lunar_logo-01-full.svg" alt="shilouette of a rockhopper penguin in front of a crescent moon"/>
-     <h3 class="font-space dark-gray">An advanced, source-based Linux distribution</h3>
+     <h3 class="font-maven dark-gray tracked">An advanced, source-based Linux distribution</h3>
      </div>
 
   </div>
@@ -90,26 +85,20 @@ From there, you create your own customized system built entirely from source cod
    <section class="w-80 w-two-thirds-m w-50-l dark-gray">
   <h1 class="fw7 tracked">ABOUT</h1>
 
-  <p><em>This part is important - who are we trying to attract? Lunar can be good for many people, but we need a focus. Can beginners install and maintain Lunar? Do we want developers and sysadmins looking for detailed control over their system? Users with older computers looking to optimize their system? Distro hoppers looking for something new?</em></p>
-
-<p><em>Do we explain what makes Lunar different from other distros? Are we a de-bloated version of Gentoo? Are we an advanced version of Linuxfromscratch?</em></p>
-
-<p><em>sample text below:</em></p>
-
-<p>Lunar is a rolling-release, source-based Linux distribution for advanced users.</p>
+  <p>Lunar is a rolling-release, source-based Linux distribution for advanced users.</p>
 
 <p>You begin by installing the <em>lunar core,</em> a minimal command-line only system, with the tools to build the full experience you want. From there, you create your own customized system built entirely from source code.</p>
 
-<h4 id="stable">STABLE</h4>
+<h4 id="stable">Stable</h4>
 <p>We use up-to-date software with very little changes from upstream.</p>
 
-<h4 id="flexible">FLEXIBLE</h4>
-<p>Our <em>lunar</em> package management system is written entirely is bash, and it’s both powerful and easy to learn.</p>
+<h4 id="flexible">Flexible</h4>
+<p>Our <em>lunar</em> package management system is written entirely in Bash, and it’s both powerful and easy to learn.</p>
 
-<h4 id="fast">FAST</h4>
+<h4 id="fast">Fast</h4>
 <p>Hardware optimizations will make your system quick and responsive.</p>
 
-<h4 id="bloat-free">BLOAT-FREE</h4>
+<h4 id="bloat-free">Bloat-free</h4>
 <p>Clear choices for optional dependencies will ensure a system that only contains what you ask for.</p>
 
 
@@ -117,22 +106,21 @@ From there, you create your own customized system built entirely from source cod
 </section>
 
 
-<section id="contact" class="bg-03 cover bg-center bg-scroll; font-sora">
-   <section class="w-100 ph4 pv5 flex flex-column justify-center items-center" style="background-color: hsla(210,30%,20%,0.8)">
-      <div class="w-80 w-two-thirds-m w-50-l  near-white">
-   <h1 class="fw7 tracked">CONTACT</h1>
-   
-   <p>Lunar is entirely volunteer based, but we make every effort to be available to talk with. If we’re not there, please leave a message and be patient.</p>
+<section id="contact" class="bg-dark-gray w-100 ph4 pv5 cover bg-center bg-fixed font-sora flex flex-column justify-center items-center">
+   <section class="w-80 w-two-thirds-m w-50-l near-white">
+  <h1 class="fw7 tracked">CONTACT</h1>
+
+  <p>Lunar is entirely volunteer based, but we make every effort to be available to talk to you. If we’re not there, please leave a message and be patient.</p>
 
 <div class="flex flex-column flex-row-l items-center justify-around font-space tc">
-  <a class="br3 pv3 ph4 f3 white mw6 link bg-animate hover-bg-navy" href="#">
+  <a class="br3 pv3 ph4 f3 white mw6 link bg-animate hover-bg-navy" href="https://libera.chat/">
     <figure><img src="assets/images/libera-white.svg" alt="Internet Relay Chat" class="w-50" />
     <figcaption>#lunar</figcaption>
     </figure>
   </a>
-  <a class="br3 pv3 ph4 f3 white mw6 link bg-animate hover-bg-navy" href="#">
+  <a class="br3 pv3 ph4 f3 white mw6 link bg-animate hover-bg-navy" href="https://discord.com/">
     <figure><img src="assets/images/discord-white.svg" alt="discord" class="w-50" />
-    <figcaption>#lunar</figcaption>
+    <figcaption>lunar-linux</figcaption>
     </figure>
   </a>
   <a class="br3 pv3 ph4 f3 white mw6 link bg-animate hover-bg-navy" href="mailto:#">
@@ -142,8 +130,7 @@ From there, you create your own customized system built entirely from source cod
   </a>
 </div>
 
-   
-      </div>
+
    </section>
 </section>
 

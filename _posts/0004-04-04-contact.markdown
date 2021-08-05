@@ -1,24 +1,22 @@
 ---
-layout: post-transp-bg
+layout: post-solid-bg
 title: contact
-bg-img: bg-03
-bg-transp: 210,30%,20%,0.8
+bg-color: bg-dark-gray
 tx-color: near-white
-bg-attach: scroll;
 ---
 
 
-Lunar is entirely volunteer based, but we make every effort to be available to talk with. If we're not there, please leave a message and be patient.
+Lunar is entirely volunteer based, but we make every effort to be available to talk to you. If we're not there, please leave a message and be patient.
 
 <div class="flex flex-column flex-row-l items-center justify-around font-space tc">
-  <a class="br3 pv3 ph4 f3 white mw6 link bg-animate hover-bg-navy" href="#">
+  <a class="br3 pv3 ph4 f3 white mw6 link bg-animate hover-bg-navy" href="https://libera.chat/">
     <figure><img src="assets/images/libera-white.svg" alt="Internet Relay Chat" class="w-50" />
     <figcaption>#lunar</figcaption>
     </figure>
   </a>
-  <a class="br3 pv3 ph4 f3 white mw6 link bg-animate hover-bg-navy" href="#">
+  <a class="br3 pv3 ph4 f3 white mw6 link bg-animate hover-bg-navy" href="https://discord.com/">
     <figure><img src="assets/images/discord-white.svg" alt="discord" class="w-50" />
-    <figcaption>#lunar</figcaption>
+    <figcaption>lunar-linux</figcaption>
     </figure>
   </a>
   <a class="br3 pv3 ph4 f3 white mw6 link bg-animate hover-bg-navy" href="mailto:#">

@@ -17,7 +17,7 @@ html {
    overflow-x:hidden;
    }
 .bg-02 {
-   background-image:url('images/bg-0{{ bg_image | plus:1 }}-2x.jpg');
+   background-image:url('images/bg-0{{ bg_image | plus:2 }}-2x.jpg');
    overflow-x:hidden;
    }
 .bg-03 {
@@ -26,18 +26,14 @@ html {
    }
 h1,h2,h3,h4,h5,h6 {
    padding: 1rem 0 0 0;
-   }
-.font-sora {
-font-family: 'Sora', sans-serif;
+font-family: 'Maven Pro', sans-serif;
 }
-.font-space {
-font-family: 'Space Grotesk', sans-serif;
+.font-maven {
+font-family: 'Maven Pro', sans-serif;
 }
+
 .font-catamaran {
 font-family: 'Catamaran', sans-serif;
-}
-.font-kanit {
-font-family: 'Kanit', sans-serif;
 }
 
 /* lunar colours */
