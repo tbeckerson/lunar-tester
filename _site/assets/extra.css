@@ -10,15 +10,15 @@ html {
 
 
 .bg-01 {
-   background-image:url('images/bg-04-2x.jpg');
+   background-image:url('images/bg-01-2x.jpg');
    overflow-x:hidden;
    }
 .bg-02 {
-   background-image:url('images/bg-06-2x.jpg');
+   background-image:url('images/bg-03-2x.jpg');
    overflow-x:hidden;
    }
 .bg-03 {
-   background-image:url('images/bg-06-2x.jpg');
+   background-image:url('images/bg-03-2x.jpg');
    overflow-x:hidden;
    }
 h1,h2,h3,h4,h5,h6 {
@@ -79,20 +79,20 @@ background-color: #7ca5cf;
   (min-device-pixel-ratio: 2), 
   (min-resolution: 192dpi) { 
   body {
-  background-image:url('images/bg-04-2x.jpg')
+  background-image:url('images/bg-01-2x.jpg')
    }
    
 @media 
   (min-device-pixel-ratio: 3), 
   (min-resolution: 384dpi) { 
   body {
-  background-image:url('images/bg-04-3x.jpg')
+  background-image:url('images/bg-01-3x.jpg')
    }   
 @media 
   (min-device-pixel-ratio: 3), 
   (min-resolution: 512dpi) { 
   body {
-  background-image:url('images/bg-04-4x.jpg')
+  background-image:url('images/bg-01-4x.jpg')
    }
 @media
    (max-width: 1024px) {

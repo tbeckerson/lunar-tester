@@ -1,7 +1,7 @@
 ---
 layout: post-solid-bg
 title: about
-bg-color: bg-washed-yellow
+bg-color: bg-near-white
 tx-color: dark-gray
 ---
 
