@@ -25,24 +25,8 @@
 </head>
 
 <body class="cover bg-moon-gray black font-catamaran">
-<nav id="main_nav" class="fixed w-100">
 
-<section id="burger-menu" class=" flex flex-row-ns flex-column items-center-ns justify-start font-maven tracked"></div>
-<label for="menu-toggle"><img src="assets/images/lunar_logo-01-white.svg" alt="main menu" class="w2"/></label><input type="checkbox" id="menu-toggle" class="dn">
-  <div id="main-menu" class="flex flex-column flex-row-ns items-start justify-start bg-light-blue mh3-ns br1">
-    <a href="" class="dib w-100 link b bg-animate hover-bg-navy hover-light-blue pv3 ph3 br1">archives</a>
-    <a href="" class="dib w-100 link b bg-animate hover-bg-navy hover-light-blue pv3 ph3 br1">github</a>
-    <a href="" class="dib w-100 link b bg-animate hover-bg-navy hover-light-blue pv3 ph3 br1">documentation</a>
-  </div>
-</section>
-
-<section id="full-menu" class="flex-row items-center justify-between bg-lunar-light lunar-dark w-100 font-maven tracked">
-    <a href="https://lunar-linux.org/" class="dib link b bg-animate bg-lunar-light hover-bg-lunar-dark hover-lunar-light pv2 ph3 br2 mr-auto"><img src="assets/images/lunar_logo-01-white.svg" alt="main menu" class="w2"/></a>
-    <a href="https://github.com/lunar-linux/" class="dib link b bg-animate hover-bg-lunar-dark hover-lunar-light pv3 ph3 br1">GITHUB</a>
-    <a href="" class="dib link b bg-animate hover-bg-lunar-dark hover-lunar-light pv3 ph3 br1">DOCUMENTATION</a>
-    <a href="#contact" class="dib link b bg-animate hover-bg-lunar-dark hover-lunar-light pv3 ph3 br1">CONTACT</a>
-</section>
-</nav>
+{% include navbar.html %}
 
 {{ content }}
 </body>

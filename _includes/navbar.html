@@ -1,0 +1,17 @@
+<nav id="main_nav" class="w-100">
+  <section id="burger-menu" class="dn-ns flex flex-row-ns flex-column items-center-ns justify-start font-maven tracked fixed"></div>
+  <label for="menu-toggle"><img src="assets/images/lunar_logo-01-white.svg" alt="main menu" class="w2 ma2"/></label><input type="checkbox" id="menu-toggle" class="dn">
+    <div id="main-menu" class="flex flex-column flex-row-ns items-start justify-start bg-light-blue mh3-ns br1">
+  {% for item in site.data.site_links %}
+      <a href="{{ item.link }}" class="dib w-100 link b bg-animate hover-bg-navy hover-light-blue pv3 ph3 br1">{{ item.name | capatilize }}</a>
+  {% endfor %}
+    </div>
+  </section>
+
+  <section id="full-menu" class="dn flex-ns flex-row items-center justify-start bg-lunar-light lunar-dark w-100 font-maven tracked fixed">
+      <a href="https://lunar-linux.org/" class="dib link b bg-animate bg-lunar-light hover-bg-lunar-dark hover-lunar-light pv2 ph3 br2 mr-auto"><img src="assets/images/lunar_logo-01-white.svg" alt="main menu" class="w2"/></a>
+  {% for item in site.data.site_links %}
+      <a href="{{ item.link }}" class="dib link b bg-animate hover-bg-lunar-dark hover-lunar-light pv3 ph3 br1">{{ item.name | capatilize }}</a>
+  {% endfor %}
+  </section>
+</nav>

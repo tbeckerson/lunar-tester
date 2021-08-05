@@ -1,25 +1,16 @@
 ---
 permalink: /404.html
 layout: default
+title: 404
+bg-img: bg-02
+bg-transp: 210,40%,80%,0.8
+tx-color: dark-gray
 ---
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+<section id="404 container" class="bg-center cover {{ page.bg-img }}">
 
-<div class="container">
-  <h1>404</h1>
-
+<div class="flex flex-column items-center justify-center w-100 vh-100 {{ page.tx-color }}" style="background-color:hsla({{ page.bg-transp }});">
+  <h1>{{ page.title }}</h1>
   <p><strong>Page not found :(</strong></p>
   <p>The requested page could not be found.</p>
 </div>

@@ -57,6 +57,7 @@ color: #7ca5cf;
 background-color: #7ca5cf;
 }
 
+
 /*the checkbox hack*/
 #menu-toggle:not(:checked) ~ #main-menu {
   visibility:hidden;
@@ -67,16 +68,9 @@ background-color: #7ca5cf;
   visibility:visible;
   opacity:1;
   transition: opacity 0.5s;
-  }   
-/* hide burger menu on big screens, show it on small */
-  #full-menu{ display:none;}
+  }
 
-@media
-  (min-width: 640px) {
-  #burger-menu {display:none;}
-  #full-menu {display:inline-flex;}
-}
-/* */
+
 
 @media 
   (min-device-pixel-ratio: 2), 
@@ -96,8 +90,4 @@ background-color: #7ca5cf;
   (min-resolution: 512dpi) { 
   body {
   background-image:url('images/bg-{{ bg_image }}-4x.jpg')
-   }
-@media
-   (max-width: 1024px) {
-
    }
