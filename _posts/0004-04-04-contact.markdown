@@ -8,7 +8,7 @@ tx-color: near-white
 
 Lunar is entirely volunteer based, but we make every effort to be available to talk to you. If we're not there, please leave a message and be patient.
 
-<div class="flex flex-column flex-row-l items-center justify-around font-space tc">
+<div class="flex flex-column-192 flex-row-lt192 items-center justify-around font-space tc">
   <a class="br3 pv3 ph4 f3 white mw6 link bg-animate hover-bg-green" href="https://libera.chat/">
     <figure><img src="assets/images/libera-white.svg" alt="Internet Relay Chat" class="w-50" />
     <figcaption>#lunar</figcaption>

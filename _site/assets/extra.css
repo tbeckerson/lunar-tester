@@ -1,6 +1,9 @@
+/* exciting visible scroll instead of jumps */
 html {
   scroll-behavior: smooth;
 }
+
+/* tachyons doesn't have these normally ? */
 .bg-fixed {
    background-attachment: fixed;
    }
@@ -8,23 +11,28 @@ html {
    background-attachment: scroll;
    }
 
+/* "randomizing" the bg image */
+
 
 .bg-01 {
    background-image:url('images/bg-01-2x.jpg');
    overflow-x:hidden;
    }
 .bg-02 {
-   background-image:url('images/bg-03-2x.jpg');
+   background-image:url('images/bg-02-2x.jpg');
    overflow-x:hidden;
    }
 .bg-03 {
    background-image:url('images/bg-03-2x.jpg');
    overflow-x:hidden;
    }
+   
+/* the defaults are terrible */
 h1,h2,h3,h4,h5,h6 {
    padding: 1rem 0 0 0;
-font-family: 'Maven Pro', sans-serif;
 }
+
+/* call our two fonts */
 .font-maven {
 font-family: 'Maven Pro', sans-serif;
 }
@@ -55,7 +63,7 @@ background-color: #7ca5cf;
 }
 
 
-/*the checkbox hack*/
+/* the checkbox hack for the burger menu*/
 #menu-toggle:not(:checked) ~ #main-menu {
   visibility:hidden;
   opacity:0;
@@ -69,22 +77,74 @@ background-color: #7ca5cf;
 
 
 
+/* extra queries based on dpi, to make burger menu trigger on mobile */
+
+/* less than 192 = most desktops */
+@media screen and
+  (max-resolution: 192dpi) {
+  .dn-lt192 {
+  display:none;
+  }
+  .flex-lt192 {
+  display: flex;
+  }
+  .flex-row-lt192 {
+  flex-direction: row;
+  }
+  .flex-column-lt192 {
+  flex-direction: column;
+  }
+
+/* these two are for styling the landing screen (min height 100vh) and the logo (width 50%) on desktop */
+  .hmn-100-lt192 {
+  min-height: 100vh;
+  }
+  .w-50-lt192 {
+  width: 50%;
+  }
+}
+
+/* old phones and up */
+@media screen and
+  (min-resolution: 192dpi) {
+  .dn-192 {
+  display:none;
+  }
+  .flex-192 {
+  display: flex;
+  }
+  .flex-row-192 {
+  flex-direction: row;
+  }
+  .flex-column-192 {
+  flex-direction: column;
+  }
+}
+
+
+/* smaller images for smaller screens */
+@media
+  (max-resolution: 192dpi) { 
+  body {
+  background-image:url('images/bg-01-4x.jpg')
+   }
+}
 @media 
-  (min-device-pixel-ratio: 2), 
   (min-resolution: 192dpi) { 
   body {
   background-image:url('images/bg-01-2x.jpg')
-   }
+  }
+}
    
 @media 
-  (min-device-pixel-ratio: 3), 
   (min-resolution: 384dpi) { 
   body {
   background-image:url('images/bg-01-3x.jpg')
-   }   
-@media 
-  (min-device-pixel-ratio: 3), 
+  }
+}   
+@media  
   (min-resolution: 512dpi) { 
   body {
   background-image:url('images/bg-01-4x.jpg')
    }
+}
