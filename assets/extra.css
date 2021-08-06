@@ -51,7 +51,8 @@ font-family: 'Catamaran', sans-serif;
 color: #162d50;
 }
 .bg-lunar-dark,
-.hover-bg-lunar-dark:hover {
+.hover-bg-lunar-dark:hover,
+.active-bg-lunar-dark:checked {
 background-color: #162d50;
 }
 
@@ -61,7 +62,8 @@ background-color: #162d50;
 color: #7ca5cf;
 }
 .bg-lunar-light,
-.hover-bg-lunar-light:hover {
+.hover-bg-lunar-light:hover,
+.active-bg-lunar-light:checked {
 background-color: #7ca5cf;
 }
 

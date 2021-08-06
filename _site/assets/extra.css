@@ -15,15 +15,15 @@ html {
 
 
 .bg-01 {
-   background-image:url('images/bg-03-2x.jpg');
+   background-image:url('images/bg-01-2x.jpg');
    overflow-x:hidden;
    }
 .bg-02 {
-   background-image:url('images/bg-04-2x.jpg');
+   background-image:url('images/bg-02-2x.jpg');
    overflow-x:hidden;
    }
 .bg-03 {
-   background-image:url('images/bg-05-2x.jpg');
+   background-image:url('images/bg-03-2x.jpg');
    overflow-x:hidden;
    }
    
@@ -48,7 +48,8 @@ font-family: 'Catamaran', sans-serif;
 color: #162d50;
 }
 .bg-lunar-dark,
-.hover-bg-lunar-dark:hover {
+.hover-bg-lunar-dark:hover,
+.active-bg-lunar-dark:checked {
 background-color: #162d50;
 }
 
@@ -58,7 +59,8 @@ background-color: #162d50;
 color: #7ca5cf;
 }
 .bg-lunar-light,
-.hover-bg-lunar-light:hover {
+.hover-bg-lunar-light:hover,
+.active-bg-lunar-light:checked {
 background-color: #7ca5cf;
 }
 
@@ -126,25 +128,25 @@ background-color: #7ca5cf;
 @media
   (max-resolution: 192dpi) { 
   body {
-  background-image:url('images/bg-03-4x.jpg')
+  background-image:url('images/bg-01-4x.jpg')
    }
 }
 @media 
   (min-resolution: 192dpi) { 
   body {
-  background-image:url('images/bg-03-2x.jpg')
+  background-image:url('images/bg-01-2x.jpg')
   }
 }
    
 @media 
   (min-resolution: 384dpi) { 
   body {
-  background-image:url('images/bg-03-3x.jpg')
+  background-image:url('images/bg-01-3x.jpg')
   }
 }   
 @media  
   (min-resolution: 512dpi) { 
   body {
-  background-image:url('images/bg-03-4x.jpg')
+  background-image:url('images/bg-01-4x.jpg')
    }
 }
