@@ -11,6 +11,6 @@ tx-color: dark-gray
 
 <div class="flex flex-column items-center justify-center w-100 vh-100 {{ page.tx-color }}" style="background-color:hsla({{ page.bg-transp }});">
   <h1>{{ page.title }}</h1>
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+  <p><strong>{{ site.error_page.head }}</strong></p>
+  <p>{{ site.error_page.text }}</p>
 </div>

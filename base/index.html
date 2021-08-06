@@ -5,27 +5,29 @@ bg-transp: 210,40%,100%,0.7
 ---
 
 <header id="title" class="bg-01 bg-top cover">
-  
 <section class="h-100-ns vh-100-l flex flex-column flex-column-m flex-row-ns items-center justify-center w-100" style="background-color:hsla({{ page.bg-transp }})">
-
-    <div id="left-lander" class="inline-flex flex-column items-center justify-center flex-shrink-1 flex-grow-0 w-100 w-two-thirds-l pv5 pv6-m">
-      <div id="logo" class="w-50 tc">
+  <div id="left-lander" class="inline-flex flex-column items-center justify-center flex-shrink-1 flex-grow-0 w-100 w-two-thirds-l pv5 pv6-m">
+    <div id="logo" class="w-50 tc">
       <img class="w-100"  src="assets/images/lunar_logo-01-full.svg" alt="shilouette of a rockhopper penguin in front of a crescent moon"/>
-     <h3 class="font-maven dark-gray tracked">An advanced, source-based Linux distribution</h3>
-     </div>
-
+      <h3 class="font-maven dark-gray tracked">{{ page.tagline }}</h3>
+    </div>
   </div>
 
   <div id="right-lander" class="flex flex-column items-center shadow-1 bg-near-white pa3 mh5-l w-100 w-90-m w-50-l">
     <p class="">
-{% capture my_include %}{% include right_lander.markdown %}{% endcapture %}
-{{ my_include | markdownify }}
-    </p>
+{% capture landing_block %}
+  {% include lander_right.md %}
+{% endcapture %}
+{{ landing_block | markdownify }}
 
+{% for item in site.data.download_buttons %}
+  {% include {{ item.file }} %}
+{% endfor %}
+    </p>
   </div>
 </section>
 </header>
 
 {% for post in site.posts reversed %}
-{{ post }}
+  {{ post }}
 {% endfor %}

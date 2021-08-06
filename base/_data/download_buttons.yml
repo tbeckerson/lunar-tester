@@ -1,0 +1,13 @@
+- name: Release
+  link: "#"
+  desc: >-
+    <strong>CURRENTLY UNAVAILABLE</strong>. The release image is stable and
+    extensively tested. Uses the stable release of the Lunar core package manager.
+  file: button_light_bg.html
+
+- name: Daily
+  link: "https://www.lunar-linux.org/lunar/testing/daily/"
+  desc: >-
+    Testing images created daily with the most up to date build chain, kernel,
+    and Lunar package manager. May be unstable and prone to crashes, use at own risk.
+  file: button_dark_bg.html
