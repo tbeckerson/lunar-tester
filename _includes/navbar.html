@@ -1,9 +1,9 @@
 <nav id="main_nav" class="w-100">
   <section id="burger-menu" class="dn-lt192 flex-192 flex-column items-center-ns justify-start font-maven tracked fixed"></div>
   <label for="menu-toggle" class="self-start"><img src="assets/images/lunar_logo-01-white.svg" alt="main menu" class="w3 ma3"/></label><input type="checkbox" id="menu-toggle" class="dn">
-    <div id="main-menu" class="flex flex-row flex-wrap items-start justify-start mh3-ns br1 bg-lunar-light tc">
+    <div id="main-menu" class="flex flex-row flex-wrap items-start justify-center mh3-ns br1 bg-lunar-light tc">
   {% for item in site.data.site_links %}
-      <a href="{{ item.link }}" class="dib w5 link b bg-animate hover-bg-lunar-dark hover-lunar-light pv3 ph3 br1">{{ item.name | upcase }}</a>
+      <a href="{{ item.link }}" class="dib w5 link b bg-animate hover-bg-lunar-dark hover-lunar-light pa3 br1">{{ item.name | upcase }}</a>
   {% endfor %}
     </div>
   </section>
@@ -11,7 +11,7 @@
   <section id="full-menu" class="flex flex-row-ns flex-wrap items-center justify-start bg-lunar-light lunar-dark w-100 font-maven tracked fixed dn-192">
       <a href="https://lunar-linux.org/" class="dib link b bg-animate bg-lunar-light hover-bg-lunar-dark hover-lunar-light pv2 ph3 br2 mr3"><img src="assets/images/lunar_logo-01-white.svg" alt="main menu" class="w2"/></a>
   {% for item in site.data.site_links %}
-      <a href="{{ item.link }}" class="dib link b bg-animate hover-bg-lunar-dark hover-lunar-light pv3 ph3 br1">{{ item.name | upcase }}</a>
+      <a href="{{ item.link }}" class="dib link b bg-animate hover-bg-lunar-dark hover-lunar-light pa3 br1">{{ item.name | upcase }}</a>
   {% endfor %}
   </section>
 </nav>
