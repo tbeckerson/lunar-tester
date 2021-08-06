@@ -1,9 +1,9 @@
 <nav id="main_nav" class="w-100">
   <section id="burger-menu" class="dn-lt192 flex-192 flex-column h-100 w-100 fixed"></div>
   <label for="menu-toggle"><img src="assets/images/lunar_logo-burger.svg" alt="main menu" class="w3"/></label><input type="checkbox" id="menu-toggle" class="dn">
-    <div id="main-menu" class="flex flex-column flex-wrap items-start justify-start h-100 w-100 mh1-ns br1 tc font-maven tracked">
+    <div id="main-menu" class="flex flex-column flex-wrap items-start justify-start h-100 w-100 ma1-ns br1 tc font-maven tracked">
   {% for item in site.data.site_links %}
-      <a href="{{ item.link }}" class="dib w5 link b bg-animate bg-lunar-light hover-bg-lunar-dark hover-lunar-light pa4 ma1 br1 f4">{{ item.name | upcase }}</a>
+      <a href="{{ item.link }}" class="self-stretch dib link b bg-animate bg-lunar-light hover-bg-lunar-dark hover-lunar-light pv5 ma1 br1 f4">{{ item.name | upcase }}</a>
   {% endfor %}
     </div>
   </section>

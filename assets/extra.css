@@ -124,6 +124,18 @@ background-color: #7ca5cf;
   .flex-column-192 {
   flex-direction: column;
   }
+  .f200-192 {
+  font-size: 2rem;
+  }
+  .f175-192 {
+  font-size: 1.75rem;
+  }
+  .f150-192 {
+  font-size: 1.5rem;
+  }
+  .f125-192 {
+  font-size: 1.25rem;
+  }
 }
 
 
