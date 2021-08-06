@@ -13,7 +13,24 @@ html {
 .bg-scroll {
    background-attachment: scroll;
    }
-
+@media
+  (orientation: landscape) {
+  .flex-row-landscape {
+  flex-direction: row;
+  }
+  .flex-column-landscape {
+  flex-direction: column;
+  }
+}
+@media
+  (orientation: portrait) {
+  .flex-row-portrait {
+  flex-direction: row;
+  }
+  .flex-column-portrait {
+  flex-direction: column;
+  }
+}
 /* "randomizing" the bg image */
 {% assign bg_image = "01, 02, 03, 04, 05" | split: ", "  | sample %}
 
