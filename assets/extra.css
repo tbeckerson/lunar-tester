@@ -21,11 +21,23 @@ html {
   .flex-column-landscape {
   flex-direction: column;
   }
+  .flex-grow-1-landscape {
+  flex-grow: 1;
+  }
 }
 @media
   (orientation: portrait) {
   .flex-row-portrait {
   flex-direction: row;
+  }
+  .w-50-portrait {
+  width: 50%;
+  }
+  .w-100-portrait {
+  width: 100%;
+  }
+  .flex-grow-1-portrait {
+  flex-grow: 1;
   }
   .flex-column-portrait {
   flex-direction: column;
