@@ -25,18 +25,19 @@
 </style>
 </head>
 
-<body class="cover bg-moon-gray black font-catamaran f5 f200-192">
+<body class="cover bg-moon-gray black font-catamaran f150-192 f200-384">
 
 <nav id="main_nav" class="w-100">
-  <section id="burger-menu" class="dn-lt192 flex-192 flex-column-portrait flex-row-landscape h-100 w-100 fixed"></div>
-  <label for="menu-toggle" class="mt3 ml3"><img src="assets/images/lunar_logo-burger.svg" alt="main menu" class="w3"/></label><input type="checkbox" id="menu-toggle" class="dn">
-    <div id="main-menu" class="self-stretch flex flex-column-portrait flex-row-landscape flex-wrap items-start justify-start h-100 w-100 br1 tc font-maven tracked">
+  <section id="burger-menu" class="dn-lt192 flex-192 flex-column-portrait flex-row-landscape items-start justify-start fixed"></div>
+  <button id="main-menu-toggle" class="self-start mt3 ml3 b--none bg-inherit pointer"><img src="assets/images/lunar_logo-burger.svg" alt="main menu" class="w3"/></button>
+    <div id="main-menu" class=" fixed top-0 flex flex-column-portrait flex-row-landscape flex-wrap items-start justify-start h-100 w-100 br1 tc font-maven tracked bg-lunar-light">
+      <div class="link b bg-animate f2 pointer bg-lunar-dark lunar-light hover-bg-red br2 tc pv4 ph4 mt3 br1 self-stretch-portrait">&#215;</div>
   
-      <a href="https://github.com/lunar-linux/" class="link b bg-animate bg-lunar-dark lunar-light flex-grow-1-landscape pv5 ph3 ma1 br1">GITHUB</a>
+      <a href="https://github.com/lunar-linux/" class="link b bg-animate bg-lunar-dark lunar-light flex-grow-1-landscape self-stretch-portrait pv5 ph3 ma1 br1">GITHUB</a>
   
-      <a href="https://wiki.lunar-linux.org/Lunar_Linux" class="link b bg-animate bg-lunar-dark lunar-light flex-grow-1-landscape pv5 ph3 ma1 br1">DOCUMENTATION</a>
+      <a href="https://wiki.lunar-linux.org/Lunar_Linux" class="link b bg-animate bg-lunar-dark lunar-light flex-grow-1-landscape self-stretch-portrait pv5 ph3 ma1 br1">DOCUMENTATION</a>
   
-      <a href="https://lunar-linux.org/index.html#contact" class="link b bg-animate bg-lunar-dark lunar-light flex-grow-1-landscape pv5 ph3 ma1 br1">CONTACT</a>
+      <a href="https://lunar-linux.org/index.html#contact" class="link b bg-animate bg-lunar-dark lunar-light flex-grow-1-landscape self-stretch-portrait pv5 ph3 ma1 br1">CONTACT</a>
   
     </div>
   </section>
@@ -74,14 +75,24 @@
 <p>You begin by installing the <em>lunar core,</em> a minimal command-line only system, with the tools to build the full experience you want. <br />
 From there, you create your own customized system built entirely from source code.</p>
 
-<div class="flex flex-column flex-row-ns flex-wrap items-center justify-center bg-lunar-light dark-gray pa2 mb2 w-75-l">
-  <a class="pv3 ph3 f3 link bg-animate bg-lunar-dark hover-bg-green lunar-light hover-white br1 tc w4 font-maven" href="#">Release</a>
+<div class="flex flex-column flex-row-ns flex-wrap-reverse items-center justify-center bg-lunar-light lunar-dark pa2 mb2 w-75-l">
+  <button id="dl-release-toggle" class="w5 pv3 ph3 f3 link bg-animate bg-lunar-dark hover-bg-green lunar-light hover-white br1 tc w4 font-maven b--none">Release</button>
+    <div id="dl-release" class="absolute flex flex-row items-center justify-start pa4 bg-near-white lunar-dark shadow-1">
+      <div class="f3 pointer hover-bg-red br2 tc pa2">&#215;</div>
+      <a class="pa3 mh2 f3 link bg-animate bg-lunar-dark hover-bg-green lunar-light hover-near-white br1 tc w4 font-maven" href="#">64-bit</a>
+      <a class="pa3 mh2 f3 link bg-animate bg-lunar-dark hover-bg-green lunar-light hover-near-white br1 tc w4 font-maven" href="#">32-bit</a>
+    </div>
   <p class="measure-narrow pl4">
   The release iso is known to be stable, and has been extensively tested. It will have older versions of <i>lunar core.</i>
   </p>
 </div>
-<div class="flex flex-column flex-row-ns flex-wrap items-center justify-center bg-lunar-dark near-white pa2 mt2 w-75-l">
-  <a class="pv3 ph3 f3 link bg-animate bg-lunar-light hover-bg-green lunar-dark hover-white br1 tc w4 font-maven" href="#">Nightly</a>
+<div class="flex flex-column flex-row-ns flex-wrap-reverse items-center justify-center bg-lunar-dark lunar-light pa2 mb2 w-75-l">
+    <button id="dl-nightly-toggle" class="w5 pv3 ph3 f3 link bg-animate bg-lunar-light hover-bg-green lunar-dark hover-white br1 tc w4 font-maven b--none">Nightly</button>
+<div id="dl-nightly" class="absolute flex flex-row flex-wrap items-center justify-start pa4 bg-near-white lunar-dark shadow-1">
+      <div class="f3 pointer hover-bg-red br2 tc pa2">&#215;</div>
+      <a class="pa3 mh2 f3 link bg-animate bg-lunar-dark hover-bg-green lunar-light hover-near-white br1 tc w4 font-maven" href="#">64-bit</a>
+      <a class="pa3 mh2 f3 link bg-animate bg-lunar-dark hover-bg-green lunar-light hover-near-white br1 tc w4 font-maven" href="#">32-bit</a>
+    </div>
   <p class="measure-narrow pl4">
   The nightly iso has newer versions of our core programs, but has less quality testing and may not be as stable.
   </p>

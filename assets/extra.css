@@ -24,23 +24,23 @@ html {
   .flex-grow-1-landscape {
   flex-grow: 1;
   }
+  .self-stretch-landscape {
+  align-self: stretch;
+  }
 }
 @media
   (orientation: portrait) {
   .flex-row-portrait {
   flex-direction: row;
   }
-  .w-50-portrait {
-  width: 50%;
-  }
-  .w-100-portrait {
-  width: 100%;
+  .flex-column-portrait {
+  flex-direction: column;
   }
   .flex-grow-1-portrait {
   flex-grow: 1;
   }
-  .flex-column-portrait {
-  flex-direction: column;
+  .self-stretch-portrait {
+  align-self: stretch;
   }
 }
 /* "randomizing" the bg image */
@@ -97,20 +97,40 @@ background-color: #7ca5cf;
 }
 
 
-/* the checkbox hack for the burger menu*/
-#menu-toggle:not(:checked) ~ #main-menu {
+/* the focus magic for the popups */
+
+/* burger menu */
+#main-menu {
   visibility:hidden;
   opacity:0;
-  transition: opacity 0.5s;
   }
-#menu-toggle:checked ~ #main-menu {
+#main-menu-toggle:focus ~ #main-menu {
   visibility:visible;
   opacity:1;
-  transition: opacity 0.5s;
+  transition: all 0.5s ease;
   }
-
-
-
+  
+/* downloads */
+#dl-release {
+  visibility:hidden;
+  opacity:0;
+  }
+#dl-release-toggle:focus ~ #dl-release {
+  visibility:visible;
+  opacity:1;
+  transition: all 0.5s ease;
+  }
+  
+#dl-nightly {
+  visibility:hidden;
+  opacity:0;
+  }
+#dl-nightly-toggle:focus ~ #dl-nightly {
+  visibility:visible;
+  opacity:1;
+  transition: all 0.5s ease;
+  }
+  
 /* extra queries based on dpi, to make burger menu trigger on mobile */
 
 /* less than 192 = most desktops */
@@ -168,6 +188,33 @@ background-color: #7ca5cf;
 }
 
 
+@media screen and
+  (min-resolution: 384dpi) {
+  .dn-384 {
+  display:none;
+  }
+  .flex-384 {
+  display: flex;
+  }
+  .flex-row-384 {
+  flex-direction: row;
+  }
+  .flex-column-384 {
+  flex-direction: column;
+  }
+  .f200-384 {
+  font-size: 2rem;
+  }
+  .f175-384 {
+  font-size: 1.75rem;
+  }
+  .f150-384 {
+  font-size: 1.5rem;
+  }
+  .f125-384 {
+  font-size: 1.25rem;
+  }
+}
 /* smaller images for smaller screens */
 @media
   (max-resolution: 192dpi) { 
