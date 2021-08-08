@@ -153,6 +153,18 @@ background-color: #7ca5cf;
   .w-50-lt192 {
   width: 50%;
   }
+  .f200-lt192 {
+  font-size: 2rem;
+  }
+  .f175-lt192 {
+  font-size: 1.75rem;
+  }
+  .f150-lt192 {
+  font-size: 1.5rem;
+  }
+  .f125-lt192 {
+  font-size: 1.25rem;
+  }
 }
 
 /* old phones and up */
