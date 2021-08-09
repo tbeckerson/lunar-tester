@@ -27,6 +27,21 @@ html {
   .self-stretch-landscape {
   align-self: stretch;
   }
+  .order-1-landscape {
+  order: 1;
+  }
+  .order-2-landscape {
+  order: 2;
+  }
+  .order-3-landscape {
+  order: 3;
+  }
+  .order-4-landscape {
+  order: 4;
+  }
+  .order-5-landscape {
+  order: 5;
+  }
 }
 @media
   (orientation: portrait) {
@@ -41,6 +56,21 @@ html {
   }
   .self-stretch-portrait {
   align-self: stretch;
+  }
+  .order-1-portrait {
+  order: 1;
+  }
+  .order-2-portrait {
+  order: 2;
+  }
+  .order-3-portrait {
+  order: 3;
+  }
+  .order-4-portrait {
+  order: 4;
+  }
+  .order-5-portrait {
+  order: 5;
   }
 }
 /* "randomizing" the bg image */
@@ -96,7 +126,6 @@ color: #7ca5cf;
 background-color: #7ca5cf;
 }
 
-
 /* the focus magic for the popups */
 
 /* burger menu */
@@ -114,21 +143,25 @@ background-color: #7ca5cf;
 #dl-release {
   visibility:hidden;
   opacity:0;
+  height:0;
   }
-#dl-release-toggle:focus ~ #dl-release {
+#dl-release-toggle:checked ~ #dl-release {
   visibility:visible;
   opacity:1;
-  transition: all 0.5s ease;
+  height: 5rem;
+  transition: all 0.75s ease;
   }
   
 #dl-nightly {
   visibility:hidden;
   opacity:0;
+  height:0;
   }
-#dl-nightly-toggle:focus ~ #dl-nightly {
+#dl-nightly-toggle:checked ~ #dl-nightly {
   visibility:visible;
   opacity:1;
-  transition: all 0.5s ease;
+  height: 5rem;
+  transition: all 0.75s ease;
   }
   
 /* extra queries based on dpi, to make burger menu trigger on mobile */

@@ -8,8 +8,6 @@
    
 </title>
 
-<!-- CSS Reset -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
 <!-- Tachyons CSS -->
 <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
 
@@ -55,15 +53,15 @@
 </nav>
 
 
-<header id="title" class="bg-01 bg-top cover">
+<header id="title" class="bg-01 bg-top bg-fixed cover">
   
 <section class="hmn-100-lt192 flex flex-column-192 flex-row-lt192 items-center justify-start w-100 pv5" style="background-color:hsla(210,40%,100%,0.7)">
 
-    <div id="left-lander" class="inline-flex flex-column items-center justify-center flex-shrink-1 flex-grow-0 pv5 ">
+  <div id="left-lander" class="inline-flex flex-column items-center justify-center flex-shrink-1 flex-grow-0 pv5 ">
       <div id="logo" class="tc">
       <img class="w-two-thirds w-50-lt192"  src="assets/images/lunar_logo-01-full.svg" alt="shilouette of a rockhopper penguin in front of a crescent moon"/>
-     <h3 class="font-maven dark-gray tracked">An advanced, source-based Linux distribution</h3>
-     </div>
+      <h3 class="font-maven dark-gray tracked">An advanced, source-based Linux distribution</h3>
+  </div>
 
   </div>
 
@@ -75,27 +73,28 @@
 <p>You begin by installing the <em>lunar core,</em> a minimal command-line only system, with the tools to build the full experience you want. <br />
 From there, you create your own customized system built entirely from source code.</p>
 
-<div class="flex flex-column flex-row-ns flex-wrap-reverse items-center justify-center bg-lunar-light lunar-dark pa2 mb2 w-75-l">
-  <button id="dl-release-toggle" class="w5 pv3 ph3 f3 link bg-animate bg-lunar-dark hover-bg-green lunar-light hover-white br1 tc w4 font-maven b--none">Release</button>
-    <div id="dl-release" class="absolute flex flex-row items-center justify-center pa4 bg-near-white lunar-dark shadow-1">
-      <button class="b--none pointer hover-bg-red br1 pa2"><img src="assets/images/close-button.svg" class="w2 v-mid" /></button>
-      <a class="pa3 mh2 f3 link bg-animate bg-lunar-dark hover-bg-green lunar-light hover-near-white br1 tc w4 font-maven" href="#">64-bit</a>
-      <a class="pa3 mh2 f3 link bg-animate bg-lunar-dark hover-bg-green lunar-light hover-near-white br1 tc w4 font-maven" href="#">32-bit</a>
-    </div>
-  <p class="measure-narrow pl4">
+<div class="flex flex-column flex-row-lt192 flex-wrap items-center justify-center bg-lunar-light lunar-dark pa2 mb2 w-75-l">
+  <p class="measure-narrow pl4 order-2-landscape order-1-portrait">
   The release iso is known to be stable, and has been extensively tested. It will have older versions of <i>lunar core.</i>
   </p>
-</div>
-<div class="flex flex-column flex-row-ns flex-wrap-reverse items-center justify-center bg-lunar-dark lunar-light pa2 mb2 w-75-l">
-    <button id="dl-nightly-toggle" class="w5 pv3 ph3 f3 link bg-animate bg-lunar-light hover-bg-green lunar-dark hover-white br1 tc w4 font-maven b--none">Nightly</button>
-<div id="dl-nightly" class="absolute flex flex-row items-center justify-center pa4 bg-near-white lunar-dark shadow-1">
-      <button class="b--none pointer hover-bg-red brt pa2"><img src="assets/images/close-button.svg" class="w2 v-mid" /></button>
-      <a class="pa3 mh2 f3 link bg-animate bg-lunar-dark hover-bg-green lunar-light hover-near-white br1 tc w4 font-maven" href="#">64-bit</a>
-      <a class="pa3 mh2 f3 link bg-animate bg-lunar-dark hover-bg-green lunar-light hover-near-white br1 tc w4 font-maven" href="#">32-bit</a>
+  <label for="dl-release-toggle" class="order-1-landscape order-2-portrait pv3 ph3 f3 link bg-animate bg-lunar-dark hover-bg-green lunar-light hover-white br1 tc w4 font-maven order-2">Release</label>
+  <input type="checkbox" id="dl-release-toggle" class="dn" />
+    <div id="dl-release" class="flex flex-row items-start justify-start order-3 pa2 lunar-dark">
+        <a class="pa3 mh1 f3 link bg-lunar-dark hover-bg-green lunar-light hover-near-white br1 tc w4 font-maven" href="#">64-bit</a>
+        <a class="pa3 mh1 f3 link bg-lunar-dark hover-bg-green lunar-light hover-near-white br1 tc w4 font-maven" href="#">32-bit</a>
     </div>
-  <p class="measure-narrow pl4">
+</div>
+
+<div class="flex flex-column flex-row-lt192 flex-wrap items-center justify-center bg-lunar-dark lunar-light pa2 mb2 w-75-l">
+  <p class="measure-narrow pl4 order-2-landscape order-1-portrait">
   The nightly iso has newer versions of our core programs, but has less quality testing and may not be as stable.
   </p>
+  <label for="dl-nightly-toggle" class="order-1-landscape order-2-portrait pv3 ph3 f3 link bg-animate bg-lunar-light hover-bg-green lunar-dark hover-white br1 tc w4 font-maven order-2">Nightly</label>
+  <input type="checkbox" id="dl-nightly-toggle" class="dn" />
+    <div id="dl-nightly" class="flex flex-row items-start justify-start order-3 pa2 lunar-dark">
+        <a class="pa3 mh1 f3 link bg-animate bg-lunar-light hover-bg-green lunar-dark hover-near-white br1 tc w4 font-maven" href="#">64-bit</a>
+        <a class="pa3 mh1 f3 link bg-animate bg-lunar-light hover-bg-green lunar-dark hover-near-white br1 tc w4 font-maven" href="#">32-bit</a>
+    </div>
 </div>
 
     </p>
