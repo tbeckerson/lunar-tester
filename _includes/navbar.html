@@ -9,10 +9,10 @@
     </div>
   </section>
 
-  <section id="full-menu" class=" dn-192 flex flex-row-ns flex-wrap items-center justify-start bg-lunar-light lunar-dark w-100 font-maven tracked fixed">
-      <a href="https://lunar-linux.org/" class="b bg-animate bg-lunar-light hover-bg-lunar-dark hover-lunar-light pv2 ph3 br2 mr3"><img src="assets/images/lunar_logo-01-white.svg" alt="main menu" class="w2"/></a>
+  <section id="full-menu" class=" dn-192 flex flex-row-ns flex-wrap items-center justify-start bg-lunar-dark lunar-light w-100 font-maven tracked fixed">
+      <a href="https://lunar-linux.org/" class="b bg-animate bg-lunar-dark hover-bg-lunar-light hover-lunar-dark pv2 ph3 br1 mr3"><img src="assets/images/lunar_logo-01-white.svg" alt="main menu" class="w2"/></a>
   {% for item in site.data.site_links %}
-      <a href="{{ item.link }}" class="b bg-animate hover-bg-lunar-dark hover-lunar-light lunar-dark link pa3 br1">{{ item.name | upcase }}</a>
+      <a href="{{ item.link }}" class="b bg-animate hover-bg-green hover-near-white lunar-light link pa3 br1">{{ item.name | upcase }}</a>
   {% endfor %}
   </section>
 </nav>

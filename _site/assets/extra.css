@@ -74,15 +74,15 @@ html {
 
 
 .bg-01 {
-   background-image:url('images/bg-01-2x.jpg');
-   overflow-x:hidden;
-   }
-.bg-02 {
    background-image:url('images/bg-02-2x.jpg');
    overflow-x:hidden;
    }
-.bg-03 {
+.bg-02 {
    background-image:url('images/bg-03-2x.jpg');
+   overflow-x:hidden;
+   }
+.bg-03 {
+   background-image:url('images/bg-04-2x.jpg');
    overflow-x:hidden;
    }
    
@@ -140,12 +140,12 @@ background-color: #7ca5cf;
 #dl-release {
   visibility:hidden;
   opacity:0;
-  height:0;
+  max-height:0;
   }
 #dl-release-toggle:checked ~ #dl-release {
   visibility:visible;
   opacity:1;
-  height: 5rem;
+  max-height: 5rem;
   transition: all 0.75s ease;
   }
   
@@ -177,6 +177,9 @@ background-color: #7ca5cf;
   }
   .flex-column-lt192 {
   flex-direction: column;
+  }
+  .w-50-lt192 {
+  width: 50%;
   }
 
 /* these two are for styling the landing screen (min height 100vh) and the logo (width 50%) on desktop */
@@ -261,25 +264,25 @@ background-color: #7ca5cf;
 @media
   (max-resolution: 192dpi) { 
   body {
-  background-image:url('images/bg-01-4x.jpg')
+  background-image:url('images/bg-02-4x.jpg')
    }
 }
 @media 
   (min-resolution: 192dpi) { 
   body {
-  background-image:url('images/bg-01-2x.jpg')
+  background-image:url('images/bg-02-2x.jpg')
   }
 }
    
 @media 
   (min-resolution: 384dpi) { 
   body {
-  background-image:url('images/bg-01-3x.jpg')
+  background-image:url('images/bg-02-3x.jpg')
   }
 }   
 @media  
   (min-resolution: 512dpi) { 
   body {
-  background-image:url('images/bg-01-4x.jpg')
+  background-image:url('images/bg-02-4x.jpg')
    }
 }

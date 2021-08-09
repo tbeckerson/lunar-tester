@@ -143,12 +143,12 @@ background-color: #7ca5cf;
 #dl-release {
   visibility:hidden;
   opacity:0;
-  height:0;
+  max-height:0;
   }
 #dl-release-toggle:checked ~ #dl-release {
   visibility:visible;
   opacity:1;
-  height: 5rem;
+  max-height: 5rem;
   transition: all 0.75s ease;
   }
   
@@ -180,6 +180,9 @@ background-color: #7ca5cf;
   }
   .flex-column-lt192 {
   flex-direction: column;
+  }
+  .w-50-lt192 {
+  width: 50%;
   }
 
 /* these two are for styling the landing screen (min height 100vh) and the logo (width 50%) on desktop */
