@@ -1,0 +1,17 @@
+<div class="{{ button_outer | default: "bg-lunar-light lunar-dark" }} flex flex-column flex-row-lt192 flex-wrap items-center justify-center pa2 mb2 w-75-l">
+  <p class="measure-narrow ph2 order-1">
+    {{ item.desc }}
+  </p>
+{% if item.links == nil %}
+  <a class="lunar-button-toggle {{ button_inner | default: "bg-lunar-dark lunar-light" }} order-2 pv3 ph3 f3 link bg-animate hover-bg-green hover-white br1 tc w5 font-maven" href="{{ item.link }}">{{ item.name }}</a>
+{% else %}
+  <label for="button-{{ item.name | slugify: "latin" }}-{{ forloop.index0 }}"  class="lunar-button-toggle {{ button_inner | default: "bg-lunar-dark lunar-light" }} order-2 pv3 ph3 f3 link bg-animate hover-bg-green hover-white br1 tc w5 font-maven">{{ item.name }}</label>
+  <input type="checkbox" id="button-{{ item.name | slugify: "latin" }}-{{ forloop.index0 }}" class="lunar-button-toggle dn" />
+
+  <div id="content-{{ item.name | slugify: "latin" }}-{{ forloop.index0 }}" class="lunar-button flex flex-row items-center justify-center order-3 pa2 lunar-dark w-100">
+{% for sub in item.links %}
+    <a class="pa3 mh1 f3 link bg-near-white hover-bg-green lunar-dark hover-near-white br1 tc w4 font-maven" href="{{ sub.link }}">{{ sub.name }}</a>
+{% endfor %}
+  </div>
+{% endif %}
+</div>

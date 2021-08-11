@@ -1,17 +1,18 @@
 <nav id="main_nav" class="w-100">
-  <section id="burger-menu" class="dn-ns flex flex-row-ns flex-column items-center-ns justify-start font-maven tracked fixed"></div>
-  <label for="menu-toggle"><img src="assets/images/lunar_logo-01-white.svg" alt="main menu" class="w2 ma2"/></label><input type="checkbox" id="menu-toggle" class="dn">
-    <div id="main-menu" class="flex flex-column flex-row-ns items-start justify-start bg-light-blue mh3-ns br1">
+  <section id="burger-menu" class="dn-lt192 flex-192 flex-column-portrait flex-row-landscape items-start justify-start fixed"></div>
+    <button id="main-menu-toggle" class="self-start mt3 ml3 b--none bg-inherit pointer"><img src="assets/images/lunar_logo-burger.svg" alt="main menu" class="w3"/></button>
+      <div id="main-menu" class=" fixed top-0 flex flex-column-portrait flex-row-landscape flex-wrap items-center justify-start w-100 tc font-maven tracked bg-near-white">
+        <button class="b b--none bg-animate f1 pointer hover-bg-red br2 tc pv5 ph3 br1"><img src="assets/images/close-button.svg" class="w3 v-mid"></button>
 {% for item in site.data.site_menu %}
-      <a href="{{ item.link }}" class="dib w-100 link b bg-animate hover-bg-navy hover-light-blue pv3 ph3 br1">{{ item.name | capatilize }}</a>
+        <a href="{{ item.link }}" class="b bg-animate bg-lunar-dark lunar-light link flex-grow-1-landscape self-stretch-portrait pv5 ph3 mr1 mb1 br1">{{ item.name | upcase }}</a>
 {% endfor %}
-    </div>
-  </section>
+      </div>
+    </section>
 
-  <section id="full-menu" class="dn flex-ns flex-row items-center justify-start bg-lunar-light lunar-dark w-100 font-maven tracked fixed">
-      <a href="https://lunar-linux.org/" class="dib link b bg-animate bg-lunar-light hover-bg-lunar-dark hover-lunar-light pv2 ph3 br2 mr-auto"><img src="assets/images/lunar_logo-01-white.svg" alt="main menu" class="w2"/></a>
+    <section id="full-menu" class=" dn-192 flex flex-row-ns flex-wrap items-center justify-start bg-lunar-dark lunar-light w-100 font-maven tracked fixed">
+        <a href="https://lunar-linux.org/" class="b bg-animate bg-lunar-dark hover-bg-lunar-light hover-lunar-dark pv2 ph3 br1 mr3"><img src="assets/images/lunar_logo-01-white.svg" alt="main menu" class="w2"/></a>
 {% for item in site.data.site_menu %}
-      <a href="{{ item.link }}" class="dib link b bg-animate hover-bg-lunar-dark hover-lunar-light pv3 ph3 br1">{{ item.name | capatilize }}</a>
+        <a href="{{ item.link }}" class="b bg-animate hover-bg-green hover-near-white lunar-light link pa3 br1">{{ item.name | upcase }}</a>
 {% endfor %}
   </section>
 </nav>

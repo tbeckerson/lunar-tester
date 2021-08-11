@@ -1,13 +1,23 @@
 - name: Release
   link: "#"
+  links:
+    - name: 64bit
+      link: "#"
+    - name: 32bit
+      link: "#"
   desc: >-
     <strong>CURRENTLY UNAVAILABLE</strong>. The release image is stable and
     extensively tested. Uses the stable release of the Lunar core package manager.
-  file: button_light_bg.html
+  file: lander_button.html
 
 - name: Daily
   link: "https://www.lunar-linux.org/lunar/testing/daily/"
+  # links:
+  #   - name: 64bit
+  #     link: "#64"
+  #   - name: 32bit
+  #     link: "#32"
   desc: >-
     Testing images created daily with the most up to date build chain, kernel,
     and Lunar package manager. May be unstable and prone to crashes, use at own risk.
-  file: button_dark_bg.html
+  file: lander_button.html

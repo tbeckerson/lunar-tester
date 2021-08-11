@@ -1,5 +1,9 @@
+<div class="flex flex-column-192 flex-row-lt192 items-center justify-around font-space tc">
+{% for item in site.data.contact_links %}
   <a class="br3 pv3 ph4 f3 white mw6 link bg-animate hover-bg-green" href="{{ item.link }}">
     <figure><img src="{{ item.src }}" alt="{{ item.alt }}" class="w-50" />
     <figcaption>{{ item.name }}</figcaption>
     </figure>
   </a>
+{% endfor %}
+</div>

@@ -2,28 +2,20 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>
-    {%if page.title %}
-      {{ page.title }}
-    {% else %}
-      {{ site.title }}
-    {% endif %}
-  </title>
+  <title>{%if page.title %}{{ site.title }} - {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
-  <!-- CSS Reset -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
   <!-- Tachyons CSS -->
   <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
-
   <!-- Fonts from google -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@100;400;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&display=swap" rel="stylesheet">
   <!-- local CSS -->
   <link rel="stylesheet" href="assets/extra.css">
+  <link rel="icon" type="image/svg+xml" href="assets/images/lunar_logo-01.svg">
 </head>
 
-<body class="cover bg-moon-gray black font-catamaran">
+<body class="cover bg-moon-gray black font-catamaran f150-192 f200-384">
 {% include navbar.html %}
 
 {{ content }}
