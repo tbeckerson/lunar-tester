@@ -1,8 +1,8 @@
-<div class="flex flex-column-192 flex-row-lt192 items-center justify-around font-space tc">
+<div class="flex flex-column-portrait flex-row-landscape items-center items-start-landscape justify-between font-maven tc pv2">
 {% for item in site.data.contact_links %}
-  <a class="br3 pv3 ph4 f3 white mw6 link bg-animate hover-bg-green" href="{{ item.link }}">
-    <figure><img src="{{ item.src }}" alt="{{ item.alt }}" class="w-50" />
-    <figcaption>{{ item.name }}</figcaption>
+  <a class="br3 white link bg-animate hover-bg-navy" href="{{ item.link }}">
+    <figure><img src="{{ item.src }}" alt="{{ item.alt }}" class="w4" />
+    <figcaption class="f3">{{ item.name }}</figcaption>
     </figure>
   </a>
 {% endfor %}

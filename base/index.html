@@ -5,33 +5,30 @@ bg-transp: 210,40%,100%,0.7
 ---
 
 <header id="title" class="bg-01 bg-top bg-fixed cover">
-<section class="hmn-100-lt192 flex flex-column-192 flex-row-lt192 items-center justify-start w-100 pv5" style="background-color:hsla({{ page.bg-transp }})">
-  <div id="left-lander" class="inline-flex flex-column items-center justify-center flex-shrink-1 flex-grow-0 pv5">
-    <div id="logo" class="tc">
-      <img class="w-two-thirds w-50-lt192"  src="assets/images/lunar_logo-01-full.svg" alt="shilouette of a rockhopper penguin in front of a crescent moon"/>
-      <h3 class="font-maven dark-gray tracked">{{ site.tagline }}</h3>
-    </div>
-  </div>
+<section class="hmn-100-landscape flex flex-column items-center justify-start w-100 pv5" style="background-color:hsla({{ page.bg-transp }})">
+  <div id="left-lander" class="inline-flex flex-column items-center justify-center pv5">
+      <img class="w-70 w-60-ns w-50-m w-40-l"  src="assets/images/lunar_logo-01-full.svg" alt="shilouette of a rockhopper penguin in front of a crescent moon"/>
 
-  <div id="right-lander" class="flex flex-column items-center shadow-1 bg-near-white pa3 mh5">
-    <p class="">
+  <h3 class="font-maven dark-gray tracked pv2 ph4 tracked measure">
 {% capture landing_block %}
   {% include lander_right.md %}
 {% endcapture %}
 {{ landing_block | markdownify }}
+  </h3>
+
+  </div>
+
+  <div id="right-lander" class="flex flex-row-landscape flex-column-portrait items-center justify-around w-100 w-90-ns w-80-m w-70-l pv3">
 
 {% for item in site.data.download_buttons %}
-  {% capture button_outer %}
-    {% cycle "button_outer": "bg-lunar-light lunar-dark", "bg-lunar-dark lunar-light" %}
-  {% endcapture %}
   {% capture button_inner %}
-    {% cycle "button_inner": "bg-lunar-dark lunar-light", "bg-lunar-light lunar-dark" %}
+    {% cycle "button_inner": "bg-lunar-light lunar-dark hover-bg-lunar-dark hover-lunar-light", "bg-lunar-dark lunar-light hover-bg-lunar-light hover-lunar-dark"  %}
   {% endcapture %}
   {% include {{ item.file }} %}
 {% endfor %}
-    </p>
   </div>
 </section>
+
 </header>
 
 {% for post in site.posts reversed %}

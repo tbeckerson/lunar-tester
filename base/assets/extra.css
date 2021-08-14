@@ -5,11 +5,6 @@ html {
   scroll-behavior: smooth;
   }
 
-/* keep paragraphs from exploding */
-#right-lander p {
-  width: 60rem;
-  }
-
 /* tachyons doesn't have these normally ? */
 .bg-fixed {
   background-attachment: fixed;
@@ -18,14 +13,34 @@ html {
 .bg-scroll {
   background-attachment: scroll;
   }
-
+.p-50 p {
+  width: 50%;
+  }
 @media
   (orientation: landscape) {
+  .hmn-100-landscape {
+  min-height:100vh;
+  }
+  .h-50-landscape {
+  height: 50%;
+  }
+  .w-50-landscape {
+  width: 50%;
+  }
+  .w-75-landscape {
+  width: 75%;
+  }
   .flex-row-landscape {
   flex-direction: row;
   }
   .flex-column-landscape {
   flex-direction: column;
+  }
+  .items-start-landscape {
+  align-items: start;
+  }
+  .items-center-landscape {
+  align-items: center;
   }
   .flex-grow-1-landscape {
   flex-grow: 1;
@@ -52,11 +67,23 @@ html {
 
 @media
   (orientation: portrait) {
+  .h-50-portrait {
+  height: 50%;
+  }
+  .w-50-portrait {
+  width: 50%;
+  }
+  .w-75-portrait {
+  width: 75%;
+  }
   .flex-row-portrait {
   flex-direction: row;
   }
   .flex-column-portrait {
   flex-direction: column;
+  }
+  .items-start-portrait {
+  align-items: start;
   }
   .flex-grow-1-portrait {
   flex-grow: 1;
@@ -81,25 +108,23 @@ html {
   }
 }
 
-/* "randomizing" the bg image */
-{% assign bg_image = "01, 02, 03, 04, 05" | split: ", "  | sample %}
-
+/* the bg image */
 .bg-01 {
-  background-image:url('images/bg-{{ bg_image }}-2x.jpg');
+  background-image:url('images/bg-01-2x.jpg');
   overflow-x:hidden;
   }
 .bg-02 {
-  background-image:url('images/bg-0{{ bg_image | plus:1 }}-2x.jpg');
+  background-image:url('images/bg-03-2x.jpg');
   overflow-x:hidden;
   }
 .bg-03 {
-  background-image:url('images/bg-0{{ bg_image | plus:2 }}-2x.jpg');
+  background-image:url('images/bg-05-2x.jpg');
   overflow-x:hidden;
   }
 
-/* the defaults are terrible */
+/* the defaults are terrible, assign it as needed */
 h1,h2,h3,h4,h5,h6 {
-  padding: 1rem 0 0 0;
+  padding: 0;
   }
 
 /* call our two fonts */
@@ -112,7 +137,7 @@ h1,h2,h3,h4,h5,h6 {
 
 /* lunar colours */
 .lunar-dark,
-.hover-lunar-dark {
+.hover-lunar-dark:hover {
   color: #162d50;
   }
 .bg-lunar-dark,
@@ -130,8 +155,6 @@ h1,h2,h3,h4,h5,h6 {
   background-color: #7ca5cf;
   }
 
-/* the focus magic for the popups */
-
 /* burger menu */
 #main-menu {
   visibility:hidden;
@@ -143,24 +166,11 @@ h1,h2,h3,h4,h5,h6 {
   transition: all 0.5s ease;
   }
 
-/* buttons */
-.lunar-button {
-  visibility:hidden;
-  opacity:0;
-  max-height:0;
-  }
-.lunar-button-toggle:checked ~ .lunar-button {
-  visibility:visible;
-  opacity:1;
-  max-height: 5rem;
-  transition: all 0.75s ease;
-  }
-
 /* extra queries based on dpi, to make burger menu trigger on mobile */
 
 /* less than 192 = most desktops */
 @media screen and
-  (max-resolution: 192dpi) {
+  (max-resolution: 232dpi) {
   .dn-lt192 {
   display:none;
   }
@@ -173,17 +183,10 @@ h1,h2,h3,h4,h5,h6 {
   .flex-column-lt192 {
   flex-direction: column;
   }
-  .w-50-lt192 {
-  width: 50%;
+  .w-75-lt192 {
+  width: 75%;
   }
 
-  /* these two are for styling the landing screen (min height 100vh) and the logo (width 50%) on desktop */
-  .hmn-100-lt192 {
-  min-height: 100vh;
-  }
-  .w-50-lt192 {
-  width: 50%;
-  }
   .f200-lt192 {
   font-size: 2rem;
   }
@@ -200,7 +203,7 @@ h1,h2,h3,h4,h5,h6 {
 
 /* old phones and up */
 @media screen and
-  (min-resolution: 192dpi) {
+  (min-resolution: 232dpi) {
   .dn-192 {
   display:none;
   }
@@ -213,6 +216,11 @@ h1,h2,h3,h4,h5,h6 {
   .flex-column-192 {
   flex-direction: column;
   }
+  
+  .w-75-192 {
+  width: 75%;
+  }
+  
   .f200-192 {
   font-size: 2rem;
   }
@@ -256,7 +264,7 @@ h1,h2,h3,h4,h5,h6 {
   }
 }
 
-/* smaller images for smaller screens */
+/* smaller images for smaller screens
 @media
   (max-resolution: 192dpi) {
   body {
@@ -282,3 +290,5 @@ h1,h2,h3,h4,h5,h6 {
   background-image:url('images/bg-{{ bg_image }}-4x.jpg')
   }
 }
+
+*/
