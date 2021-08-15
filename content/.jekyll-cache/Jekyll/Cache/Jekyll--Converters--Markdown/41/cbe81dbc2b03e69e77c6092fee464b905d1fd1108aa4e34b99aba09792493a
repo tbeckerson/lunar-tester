@@ -1,0 +1,17 @@
+I"»<p>Lunar is a source-based, rolling-release <a href="https://www.linux.org/">Linux</a> distribution typically for advanced users.</p>
+
+<h4 id="stable">Stable</h4>
+<p>Lunar Linux uses up-to-date, stable software with few changes from its original project.</p>
+
+<h4 id="slim">Slim</h4>
+<p>Clear choices for optional software dependencies will ensure a system that only contains what is necessary.</p>
+
+<h4 id="fast">Fast</h4>
+<p>Select custom software optimizations tuned to the host hardware for the quickest and most responsive system possible.</p>
+
+<h4 id="open">Open</h4>
+<p>Lunar Linux is Open Source under the <a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html">GPLv2 license</a>, allowing anyone contribute updates and report problems via our <a href="">GitHub project</a>.</p>
+
+<h4 id="robust">Robust</h4>
+<p>Our <a href="">package management system</a> is written entirely in Bash. It is lightweight, powerful, and easy to use.</p>
+:ET

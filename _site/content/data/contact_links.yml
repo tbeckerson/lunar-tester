@@ -1,0 +1,14 @@
+- name: "#lunar"
+  link: "https://libera.chat/"
+  alt: Internet Relay Chat
+  src: assets/images/libera-white.svg
+
+- name: "Lunar-Linux"
+  link: "https://discord.gg/Nyn9eWsKV4"
+  alt: Discord
+  src: assets/images/discord-white.svg
+
+- name: "info@lunar-linux.org"
+  link: "mailto:info@lunar-linux.org"
+  alt: email
+  src: assets/images/email-white.svg

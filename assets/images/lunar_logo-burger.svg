@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   inkscape:export-ydpi="96"
+   inkscape:export-xdpi="96"
+   inkscape:export-filename="/home/trevor/longterm/lunar/lunar-website/assets/images/icon-01.png"
+   width="500"
+   height="500"
+   viewBox="0 0 499.99999 500"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="lunar_logo-burger.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     fit-margin-bottom="0"
+     fit-margin-right="0"
+     fit-margin-left="0"
+     fit-margin-top="0"
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="394.96964"
+     inkscape:cy="639.42656"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     showborder="false"
+     inkscape:window-width="2519"
+     inkscape:window-height="1046"
+     inkscape:window-x="1961"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1"
+     objecttolerance="10.0"
+     gridtolerance="10.0"
+     guidetolerance="10.0"
+     inkscape:pagecheckerboard="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(909.72465,664.37066)"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#96ccff;fill-opacity:1;stroke:none;stroke-width:3.8172;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m -625.90345,-664.37066 a 209.11937,205.16069 44.792558 0 1 32.82878,26.57831 209.11937,205.16069 44.792558 0 1 2.84767,292.92026 209.11937,205.16069 44.792558 0 1 -292.96106,-2.75253 209.11937,205.16069 44.792558 0 1 -26.53659,-32.34308 254.19196,249.38004 44.792591 0 0 71.86671,140.17383 254.19196,249.38004 44.792591 0 0 356.10157,3.34304 254.19196,249.38004 44.792591 0 0 -3.45885,-356.05081 254.19196,249.38004 44.792591 0 0 -140.68823,-71.86902 z"
+       id="path1924"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/trevor/longterm/lunar/lunar-website/assets/images/icon-01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <g
+       id="g107870"
+       transform="matrix(0.98100322,0,0,0.98100321,-1058.3794,-99.101945)">
+      <rect
+         style="fill:#001b44;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+         id="rect102232"
+         width="397.9848"
+         height="80.380493"
+         x="207.38211"
+         y="-480.72174"
+         rx="12.386168"
+         ry="12.386168" />
+      <rect
+         style="fill:#001b44;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+         id="rect102668"
+         width="397.9848"
+         height="80.380493"
+         x="207.38211"
+         y="-361.56403"
+         rx="12.386168"
+         ry="12.386168" />
+      <rect
+         style="fill:#001b44;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+         id="rect102672"
+         width="397.9848"
+         height="80.380493"
+         x="207.38211"
+         y="-242.40633"
+         rx="12.386168"
+         ry="12.386168" />
+    </g>
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/trevor/longterm/lunar/lunar-website/assets/images/icon-01.png"
+       sodipodi:nodetypes="cccccccccccccccscc"
+       d="m -737.58496,-535.11218 c -26.24034,-0.0875 -41.84414,4.74991 -64.34549,10.83179 50.62101,-4.43284 75.03573,-4.68536 90.60499,0.90308 -30.10982,-0.85182 -51.5078,0.42057 -108.3728,13.72897 39.31131,-5.39349 59.60327,-5.33139 88.63435,-3.85852 -32.63916,2.08744 -58.66299,7.25155 -101.67798,20.95701 52.20277,-11.39494 80.68852,-11.30788 113.23655,-10.57213 -34.63903,2.75038 -69.32043,8.45979 -123.86841,29.9238 64.10744,-18.52893 91.96794,-14.52686 123.39345,-14.54253 -2.18394,3.15647 1.46966,-3.93172 0,0 -13.85449,66.97964 -19.23378,104.0638 -11.70698,187.20039 72.74768,28.13071 76.47687,-38.21872 162.85769,-45.39326 -2.02274,-48.76561 -1.25463,-35.80953 -9.96682,-80.34049 19.24747,0.46847 51.73627,-10.17912 51.73627,-10.17912 15.91639,-4.02417 16.35192,-10.78326 41.17456,-13.10202 0,0 -12.16077,-19.77335 -37.96103,-31.92536 -9.64513,-4.54229 -31.17039,-11.54461 -60.07851,-15.80667 -41.33666,-36.62199 -116.49883,-37.47766 -153.65984,-37.82494 z"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.75605;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="path1934" />
+  </g>
+</svg>

@@ -1,0 +1,322 @@
+---
+
+---
+
+/* exciting visible scroll instead of jumps */
+html {
+  scroll-behavior: smooth;
+  }
+
+/* tachyons doesn't have these normally ? */
+.bg-fixed {
+  background-attachment: fixed;
+  }
+
+.bg-scroll {
+  background-attachment: scroll;
+  }
+
+
+.p-50 p {
+  width: 50%;
+  }
+
+@media
+  (orientation: landscape) {
+  .hmn-100-landscape {
+  min-height:100vh;
+  }
+  .h-50-landscape {
+  height: 50%;
+  }
+  .w-50-landscape {
+  width: 50%;
+  }
+  .w-75-landscape {
+  width: 75%;
+  }
+  .flex-row-landscape {
+  flex-direction: row;
+  }
+  .flex-column-landscape {
+  flex-direction: column;
+  }
+  .items-start-landscape {
+  align-items: start;
+  }
+  .items-center-landscape {
+  align-items: center;
+  }
+  .flex-grow-1-landscape {
+  flex-grow: 1;
+  }
+  .self-stretch-landscape {
+  align-self: stretch;
+  }
+  .order-1-landscape {
+  order: 1;
+  }
+  .order-2-landscape {
+  order: 2;
+  }
+  .order-3-landscape {
+  order: 3;
+  }
+  .order-4-landscape {
+  order: 4;
+  }
+  .order-5-landscape {
+  order: 5;
+  }
+}
+
+@media
+  (orientation: portrait) {
+  .h-50-portrait {
+  height: 50%;
+  }
+  .w-50-portrait {
+  width: 50%;
+  }
+  .w-75-portrait {
+  width: 75%;
+  }
+  .flex-row-portrait {
+  flex-direction: row;
+  }
+  .flex-column-portrait {
+  flex-direction: column;
+  }
+  .items-start-portrait {
+  align-items: start;
+  }
+  .flex-grow-1-portrait {
+  flex-grow: 1;
+  }
+  .self-stretch-portrait {
+  align-self: stretch;
+  }
+  .order-1-portrait {
+  order: 1;
+  }
+  .order-2-portrait {
+  order: 2;
+  }
+  .order-3-portrait {
+  order: 3;
+  }
+  .order-4-portrait {
+  order: 4;
+  }
+  .order-5-portrait {
+  order: 5;
+  }
+}
+
+/* animations */
+@keyframes bg-fade-in {
+    from
+    {background-color: transparent;}
+    to
+    {background-color: hsla({{ page.bg-transp }});}
+}
+@keyframes fade-in {
+    from
+    {opacity:0;}
+    to
+    {opacity:1;}
+}
+@keyframes fade-in-top {
+    from
+    {opacity:0; margin-top: 10vh;}
+    to
+    {opacity:1; margin-top: 0vh;}
+}
+/* the bg image */
+.bg-01 {
+  background-image:url('images/lunar_bg-02.svg');
+  overflow-x:hidden;
+  overflow-y:hidden;
+  }
+.bg-02 {
+  background-image:url('images/bg-03-2x.jpg');
+  overflow-x:hidden;
+  }
+.bg-03 {
+  background-image:url('images/bg-05-2x.jpg');
+  overflow-x:hidden;
+  }
+
+/* the defaults are terrible, assign it as needed */
+h1,h2,h3,h4,h5,h6 {
+  padding: 0;
+  }
+
+/* call our two fonts */
+.font-maven {
+  font-family: 'Maven Pro', sans-serif;
+  }
+.font-catamaran {
+  font-family: 'Catamaran', sans-serif;
+  }
+
+/* lunar colours */  
+.bg-blue-moon {
+  background-color: #505058;
+  }
+.lunar-dark,
+.hover-lunar-dark:hover {
+  color: #162d50;
+  }
+.bg-lunar-dark,
+.hover-bg-lunar-dark:hover,
+.active-bg-lunar-dark:checked {
+  background-color: #162d50;
+  }
+.lunar-light,
+.hover-lunar-light:hover {
+  color: #7ca5cf;
+  }
+.bg-lunar-light,
+.hover-bg-lunar-light:hover,
+.active-bg-lunar-light:checked {
+  background-color: #7ca5cf;
+  }
+
+/* burger menu */
+#main-menu {
+  visibility:hidden;
+  opacity:0;
+  }
+#main-menu-toggle:focus ~ #main-menu {
+  visibility:visible;
+  opacity:1;
+  transition: all 0.5s ease;
+  }
+
+/* extra queries based on dpi, to make burger menu trigger on mobile */
+
+/* less than 192 = most desktops */
+@media screen and
+  (max-resolution: 232dpi) {
+  .dn-lt192 {
+  display:none;
+  }
+  .flex-lt192 {
+  display: flex;
+  }
+  .flex-row-lt192 {
+  flex-direction: row;
+  }
+  .flex-column-lt192 {
+  flex-direction: column;
+  }
+  .w-75-lt192 {
+  width: 75%;
+  }
+
+  .f200-lt192 {
+  font-size: 2rem;
+  }
+  .f175-lt192 {
+  font-size: 1.75rem;
+  }
+  .f150-lt192 {
+  font-size: 1.5rem;
+  }
+  .f125-lt192 {
+  font-size: 1.25rem;
+  }
+}
+
+/* old phones and up */
+@media screen and
+  (min-resolution: 232dpi) {
+  .dn-192 {
+  display:none;
+  }
+  .flex-192 {
+  display: flex;
+  }
+  .flex-row-192 {
+  flex-direction: row;
+  }
+  .flex-column-192 {
+  flex-direction: column;
+  }
+  
+  .w-75-192 {
+  width: 75%;
+  }
+  
+  .f200-192 {
+  font-size: 2rem;
+  }
+  .f175-192 {
+  font-size: 1.75rem;
+  }
+  .f150-192 {
+  font-size: 1.5rem;
+  }
+  .f125-192 {
+  font-size: 1.25rem;
+  }
+}
+
+
+@media screen and
+  (min-resolution: 384dpi) {
+  .dn-384 {
+  display:none;
+  }
+  .flex-384 {
+  display: flex;
+  }
+  .flex-row-384 {
+  flex-direction: row;
+  }
+  .flex-column-384 {
+  flex-direction: column;
+  }
+  .f200-384 {
+  font-size: 2rem;
+  }
+  .f175-384 {
+  font-size: 1.75rem;
+  }
+  .f150-384 {
+  font-size: 1.5rem;
+  }
+  .f125-384 {
+  font-size: 1.25rem;
+  }
+}
+
+/* smaller images for smaller screens
+@media
+  (max-resolution: 192dpi) {
+  body {
+  background-image:url('images/bg-{{ bg_image }}-4x.jpg')
+  }
+}
+@media
+  (min-resolution: 192dpi) {
+  body {
+  background-image:url('images/bg-{{ bg_image }}-2x.jpg')
+  }
+}
+
+@media
+  (min-resolution: 384dpi) {
+  body {
+  background-image:url('images/bg-{{ bg_image }}-3x.jpg')
+  }
+}
+@media
+  (min-resolution: 512dpi) {
+  body {
+  background-image:url('images/bg-{{ bg_image }}-4x.jpg')
+  }
+}
+
+*/
