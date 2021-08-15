@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://lunar-linux.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://lunar-linux.org/" rel="alternate" type="text/html" /><updated>2021-08-15T12:18:16-03:00</updated><id>https://lunar-linux.org/feed.xml</id><title type="html">Lunar Linux</title><entry><title type="html">contact</title><link href="https://lunar-linux.org/0004/04/03/contact.html" rel="alternate" type="text/html" title="contact" /><published>0004-04-03T23:59:12-04:14</published><updated>0004-04-03T23:59:12-04:14</updated><id>https://lunar-linux.org/0004/04/03/contact</id><content type="html" xml:base="https://lunar-linux.org/0004/04/03/contact.html">&lt;p&gt;Lunar is entirely volunteer based, but we make every effort to be available to talk to you. If we’re not there, please leave a message and be patient.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://lunar-linux.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://lunar-linux.org/" rel="alternate" type="text/html" /><updated>2021-08-15T12:24:18-03:00</updated><id>https://lunar-linux.org/feed.xml</id><title type="html">Lunar Linux</title><entry><title type="html">contact</title><link href="https://lunar-linux.org/0004/04/03/contact.html" rel="alternate" type="text/html" title="contact" /><published>0004-04-03T23:59:12-04:14</published><updated>0004-04-03T23:59:12-04:14</updated><id>https://lunar-linux.org/0004/04/03/contact</id><content type="html" xml:base="https://lunar-linux.org/0004/04/03/contact.html">&lt;p&gt;Lunar is entirely volunteer based, but we make every effort to be available to talk to you. If we’re not there, please leave a message and be patient.&lt;/p&gt;
 
 &lt;div class=&quot;flex flex-column-portrait flex-row-landscape items-center items-start-landscape justify-between font-maven tc pv2&quot;&gt;
 
@@ -20,29 +20,7 @@
     &lt;/figure&gt;
   &lt;/a&gt;
 
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Lunar is entirely volunteer based, but we make every effort to be available to talk to you. If we’re not there, please leave a message and be patient.</summary></entry><entry><title type="html">contact</title><link href="https://lunar-linux.org/base/0004/04/03/contact.html" rel="alternate" type="text/html" title="contact" /><published>0004-04-03T23:59:12-04:14</published><updated>0004-04-03T23:59:12-04:14</updated><id>https://lunar-linux.org/base/0004/04/03/contact</id><content type="html" xml:base="https://lunar-linux.org/base/0004/04/03/contact.html">&lt;p&gt;Lunar is entirely volunteer based, but we make every effort to be available to talk to you. If we’re not there, please leave a message and be patient.&lt;/p&gt;
-
-&lt;div class=&quot;flex flex-column-portrait flex-row-landscape items-center items-start-landscape justify-between font-maven tc pv2&quot;&gt;
-
-  &lt;a class=&quot;br3 white link bg-animate hover-bg-navy&quot; href=&quot;https://libera.chat/&quot;&gt;
-    &lt;figure&gt;&lt;img src=&quot;assets/images/libera-white.svg&quot; alt=&quot;Internet Relay Chat&quot; class=&quot;w4&quot; /&gt;
-    &lt;figcaption class=&quot;f3&quot;&gt;#lunar&lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/a&gt;
-
-  &lt;a class=&quot;br3 white link bg-animate hover-bg-navy&quot; href=&quot;https://discord.gg/Nyn9eWsKV4&quot;&gt;
-    &lt;figure&gt;&lt;img src=&quot;assets/images/discord-white.svg&quot; alt=&quot;Discord&quot; class=&quot;w4&quot; /&gt;
-    &lt;figcaption class=&quot;f3&quot;&gt;Lunar-Linux&lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/a&gt;
-
-  &lt;a class=&quot;br3 white link bg-animate hover-bg-navy&quot; href=&quot;mailto:info@lunar-linux.org&quot;&gt;
-    &lt;figure&gt;&lt;img src=&quot;assets/images/email-white.svg&quot; alt=&quot;email&quot; class=&quot;w4&quot; /&gt;
-    &lt;figcaption class=&quot;f3&quot;&gt;info@lunar-linux.org&lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/a&gt;
-
-&lt;/div&gt;</content><author><name></name></author><category term="base" /><summary type="html">Lunar is entirely volunteer based, but we make every effort to be available to talk to you. If we’re not there, please leave a message and be patient.</summary></entry><entry><title type="html">about</title><link href="https://lunar-linux.org/0000/12/31/about.html" rel="alternate" type="text/html" title="about" /><published>0000-12-31T23:59:12-04:14</published><updated>0000-12-31T23:59:12-04:14</updated><id>https://lunar-linux.org/0000/12/31/about</id><content type="html" xml:base="https://lunar-linux.org/0000/12/31/about.html">&lt;p&gt;Lunar is a source-based, rolling-release &lt;a href=&quot;https://www.linux.org/&quot;&gt;Linux&lt;/a&gt; distribution typically for advanced users.&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Lunar is entirely volunteer based, but we make every effort to be available to talk to you. If we’re not there, please leave a message and be patient.</summary></entry><entry><title type="html">about</title><link href="https://lunar-linux.org/0000/12/31/about.html" rel="alternate" type="text/html" title="about" /><published>0000-12-31T23:59:12-04:14</published><updated>0000-12-31T23:59:12-04:14</updated><id>https://lunar-linux.org/0000/12/31/about</id><content type="html" xml:base="https://lunar-linux.org/0000/12/31/about.html">&lt;p&gt;Lunar is a source-based, rolling-release &lt;a href=&quot;https://www.linux.org/&quot;&gt;Linux&lt;/a&gt; distribution typically for advanced users.&lt;/p&gt;
 
 &lt;h4 id=&quot;stable&quot;&gt;Stable&lt;/h4&gt;
 &lt;p&gt;Lunar Linux uses up-to-date, stable software with few changes from its original project.&lt;/p&gt;
@@ -57,19 +35,4 @@
 &lt;p&gt;Lunar Linux is Open Source under the &lt;a href=&quot;https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html&quot;&gt;GPLv2 license&lt;/a&gt;, allowing anyone contribute updates and report problems via our &lt;a href=&quot;https://github.com/lunar-linux&quot;&gt;GitHub project&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h4 id=&quot;robust&quot;&gt;Robust&lt;/h4&gt;
-&lt;p&gt;Our &lt;a href=&quot;https://github.com/lunar-linux/lunar&quot;&gt;package management system&lt;/a&gt; is written entirely in Bash. It is lightweight, powerful, and easy to use.&lt;/p&gt;</content><author><name></name></author><summary type="html">Lunar is a source-based, rolling-release Linux distribution typically for advanced users.</summary></entry><entry><title type="html">about</title><link href="https://lunar-linux.org/base/0000/12/31/about.html" rel="alternate" type="text/html" title="about" /><published>0000-12-31T23:59:12-04:14</published><updated>0000-12-31T23:59:12-04:14</updated><id>https://lunar-linux.org/base/0000/12/31/about</id><content type="html" xml:base="https://lunar-linux.org/base/0000/12/31/about.html">&lt;p&gt;Lunar is a source-based, rolling-release &lt;a href=&quot;https://www.linux.org/&quot;&gt;Linux&lt;/a&gt; distribution typically for advanced users.&lt;/p&gt;
-
-&lt;h4 id=&quot;stable&quot;&gt;Stable&lt;/h4&gt;
-&lt;p&gt;Lunar Linux uses up-to-date, stable software with few changes from its original project.&lt;/p&gt;
-
-&lt;h4 id=&quot;slim&quot;&gt;Slim&lt;/h4&gt;
-&lt;p&gt;Clear choices for optional software dependencies will ensure a system that only contains what is necessary.&lt;/p&gt;
-
-&lt;h4 id=&quot;fast&quot;&gt;Fast&lt;/h4&gt;
-&lt;p&gt;Select custom software optimizations tuned to the host hardware for the quickest and most responsive system possible.&lt;/p&gt;
-
-&lt;h4 id=&quot;open&quot;&gt;Open&lt;/h4&gt;
-&lt;p&gt;Lunar Linux is Open Source under the &lt;a href=&quot;https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html&quot;&gt;GPLv2 license&lt;/a&gt;, allowing anyone contribute updates and report problems via our &lt;a href=&quot;https://github.com/lunar-linux&quot;&gt;GitHub project&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h4 id=&quot;robust&quot;&gt;Robust&lt;/h4&gt;
-&lt;p&gt;Our &lt;a href=&quot;https://github.com/lunar-linux/lunar&quot;&gt;package management system&lt;/a&gt; is written entirely in Bash. It is lightweight, powerful, and easy to use.&lt;/p&gt;</content><author><name></name></author><category term="base" /><summary type="html">Lunar is a source-based, rolling-release Linux distribution typically for advanced users.</summary></entry></feed>
+&lt;p&gt;Our &lt;a href=&quot;https://github.com/lunar-linux/lunar&quot;&gt;package management system&lt;/a&gt; is written entirely in Bash. It is lightweight, powerful, and easy to use.&lt;/p&gt;</content><author><name></name></author><summary type="html">Lunar is a source-based, rolling-release Linux distribution typically for advanced users.</summary></entry></feed>
