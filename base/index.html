@@ -1,15 +1,15 @@
 ---
 layout: default
 title: It's out of this world!
-bg-transp: 210,40%,100%,0.7
+bg-transp: 240,20%,10%,0.5
 ---
 
 <header id="title" class="bg-01 bg-top bg-fixed cover">
-<section class="hmn-100-landscape flex flex-column items-center justify-start w-100 pv5" style="background-color:hsla({{ page.bg-transp }})">
-  <div id="left-lander" class="inline-flex flex-column items-center justify-center pv5">
-      <img class="w-70 w-60-ns w-50-m w-40-l"  src="assets/images/lunar_logo-01-full.svg" alt="shilouette of a rockhopper penguin in front of a crescent moon"/>
+<section class="hmn-100-landscape flex flex-column items-center justify-start w-100 pv5" style="background-color: hsla({{ page.bg-transp }});">
+  <div id="left-lander" class="inline-flex flex-column items-center justify-center pt5 pb4">
+      <img class="w-40" style="animation-name: fade-in; animation-duration: 1s;" src="assets/images/lunar_logo-01-full.svg" alt="shilouette of a rockhopper penguin in front of a crescent moon"/>
 
-  <h3 class="font-maven dark-gray tracked pv2 ph4 tracked measure">
+  <h3 class="font-maven lunar-light tracked pv2 ph4 tracked tc" style="animation-name: fade-in; animation-duration: 3s;">
 {% capture landing_block %}
   {% include lander_right.md %}
 {% endcapture %}

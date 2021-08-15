@@ -1,5 +1,7 @@
 ---
+
 ---
+
 /* exciting visible scroll instead of jumps */
 html {
   scroll-behavior: smooth;
@@ -13,9 +15,12 @@ html {
 .bg-scroll {
   background-attachment: scroll;
   }
+
+
 .p-50 p {
   width: 50%;
   }
+
 @media
   (orientation: landscape) {
   .hmn-100-landscape {
@@ -108,10 +113,30 @@ html {
   }
 }
 
+/* animations */
+@keyframes bg-fade-in {
+    from
+    {background-color: transparent;}
+    to
+    {background-color: hsla({{ page.bg-transp }});}
+}
+@keyframes fade-in {
+    from
+    {opacity:0;}
+    to
+    {opacity:1;}
+}
+@keyframes fade-in-top {
+    from
+    {opacity:0; margin-top: 10vh;}
+    to
+    {opacity:1; margin-top: 0vh;}
+}
 /* the bg image */
 .bg-01 {
-  background-image:url('images/bg-01-2x.jpg');
+  background-image:url('images/lunar_bg-02.svg');
   overflow-x:hidden;
+  overflow-y:hidden;
   }
 .bg-02 {
   background-image:url('images/bg-03-2x.jpg');
@@ -135,7 +160,10 @@ h1,h2,h3,h4,h5,h6 {
   font-family: 'Catamaran', sans-serif;
   }
 
-/* lunar colours */
+/* lunar colours */  
+.bg-blue-moon {
+  background-color: #505058;
+  }
 .lunar-dark,
 .hover-lunar-dark:hover {
   color: #162d50;
