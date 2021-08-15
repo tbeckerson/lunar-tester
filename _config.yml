@@ -1,6 +1,6 @@
 title: Lunar Linux
 url: "https://lunar-linux.org/"
-baseurl: ""
+baseurl: "base"
 email: info@lunar-linux.org
 
 tagline: Lunar Linux is an advanced source-based distribution.
