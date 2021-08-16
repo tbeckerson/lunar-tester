@@ -4,7 +4,7 @@
 
     <div id="content-{{ item.name | slugify: "latin" }}-{{ forloop.index0 }}" class="flex flex-row items-center justify-center w-100">
   {% for sub in item.links %}
-      <a class="pa3 mh3 f3 link shadow-1 {{ button_inner | default: "bg-lunar-light lunar-dark hover-bg-lunar-dark hover-lunar-light" }}  br1 tc w4 font-maven" href="{{ sub.link }}">{{ sub.name }}</a>
+      <a class="pa3 mh3 f3 link shadow-1 bg-lunar-light hover-bg-washed-blue lunar-dark  br1 tc w4 font-maven" href="{{ sub.link }}">{{ sub.name }}</a>
   {% endfor %}
     </div>
   <p class="measure-narrow pa2 tj">

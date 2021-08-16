@@ -2,9 +2,10 @@
 
 ---
 
-<section id="{{ page.title }}" class="{{ page.bg-color }} w-100 pa5 flex flex-column items-center justify-start {{ page.tx-color }}">
-  <section id="{{ page.title }}-content" class="tl">
-      <h1 class="fw7 tracked font-maven">{{ page.title | upcase }}</h1>
+<section id="{{ page.title }}" class="bg-{{ page.bg-color }} pa5 flex flex-column items-center justify-start {{ page.tx-color }}">
+  <div id="{{ page.title }}-content" class="measure-wide pv3">
+    <h1 class="font-maven">{{ page.title | upcase }}</h1>
+    <h3 class="font-maven">{{ page.date | date: '%B %d %Y' }}</h3>
   {{ content }}
-  </section>
+  </div>
 </section>

@@ -1,0 +1,18 @@
+<section id="contact" class="w-100 flex flex-column items-center justify-start pv5 bg-lunar-dark near-white">
+
+  <div class="measure-wide">
+{% capture contact_section %}
+  {% include contact.md %}
+{% endcapture %}
+{{ contact_section | markdownify }}
+  </div>
+<div class="flex flex-column-portrait flex-row-landscape items-center items-start-landscape justify-around font-maven tc pv2">
+{% for item in site.data.contact_links %}
+  <a class="br3 white link bg-animate hover-bg-lunar-light hover-lunar-dark" href="{{ item.link }}">
+    <figure><img src="{{ item.src }}" alt="{{ item.alt }}" class="w4" />
+    <figcaption class="f3">{{ item.name }}</figcaption>
+    </figure>
+  </a>
+{% endfor %}
+</div>
+</section>

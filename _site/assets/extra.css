@@ -47,27 +47,14 @@ html {
   width: 50%;
   }
 
-/* the bg image */
-.bg-01 {
-  background-image:url('images/lunar_bg-02.svg');
-  overflow-x:hidden;
-  overflow-y:hidden;
-  }
-.bg-02 {
-  background-image:url('images/bg-02-2x.jpg');
-  overflow-x:hidden;
-  }
-.bg-03 {
-  background-image:url('images/bg-05-2x.jpg');
-  overflow-x:hidden;
-  }
 
-/* the defaults are terrible, assign it as needed */
+/* the padding defaults are terrible, assign it as needed */
 h1,h2,h3,h4,h5,h6 {
   padding: 0;
+  letter-spacing: .1em;  
   }
 
-/* call our two fonts */
+/* name our two fonts */
 .font-maven {
   font-family: 'Maven Pro', sans-serif;
   }
@@ -97,6 +84,22 @@ h1,h2,h3,h4,h5,h6 {
 .active-bg-lunar-light:checked {
   background-color: #6a98c8;
   }
+
+/* the bg image */
+.bg-01 {
+  background-image:url('images/lunar_bg-02.svg');
+  overflow-x:hidden;
+  overflow-y:hidden;
+  }
+.bg-02 {
+  background-image:url('images/bg-02-2x.jpg');
+  overflow-x:hidden;
+  }
+.bg-03 {
+  background-image:url('images/bg-01-2x.jpg');
+  overflow-x:hidden;
+  }
+
 /* animations */
 @keyframes bg-fade-in {
     from
@@ -145,6 +148,9 @@ h1,h2,h3,h4,h5,h6 {
   width: 75%;
   }
   .w2-landscape {
+  width: 2rem;
+  }
+  .w3-landscape {
   width: 3rem;
   }
   .flex-row-landscape {

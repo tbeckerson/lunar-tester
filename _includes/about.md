@@ -1,10 +1,5 @@
----
-layout: post-solid-bg
-title: about
-bg-color: bg-lunar-light
-tx-color: dark-gray
-link-color: link-dark
----
+ABOUT
+=
 
 Lunar is a source-based, rolling-release [Linux](https://www.linux.org/) distribution typically for advanced users.
 
