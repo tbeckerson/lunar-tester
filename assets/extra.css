@@ -58,7 +58,7 @@ html {
   overflow-y:hidden;
   }
 .bg-02 {
-  background-image:url('images/bg-03-2x.jpg');
+  background-image:url('images/bg-02-2x.jpg');
   overflow-x:hidden;
   }
 .bg-03 {
@@ -94,12 +94,12 @@ h1,h2,h3,h4,h5,h6 {
   }
 .lunar-light,
 .hover-lunar-light:hover {
-  color: #7ca5cf;
+  color: #6a98c8;
   }
 .bg-lunar-light,
 .hover-bg-lunar-light:hover,
 .active-bg-lunar-light:checked {
-  background-color: #7ca5cf;
+  background-color: #6a98c8;
   }
 /* animations */
 @keyframes bg-fade-in {
@@ -148,6 +148,9 @@ h1,h2,h3,h4,h5,h6 {
   .w-75-landscape {
   width: 75%;
   }
+  .w2-landscape {
+  width: 3rem;
+  }
   .flex-row-landscape {
   flex-direction: row;
   }
@@ -193,6 +196,9 @@ h1,h2,h3,h4,h5,h6 {
   }
   .w-75-portrait {
   width: 75%;
+  }
+  .w3-portrait {
+  width: 3rem;
   }
   .flex-row-portrait {
   flex-direction: row;
