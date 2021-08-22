@@ -85,6 +85,13 @@ h1,h2,h3,h4,h5,h6 {
   background-color: #6a98c8;
   }
 
+.bg-transp-light {
+  background-color: hsla(240,20%,80%,0.7);
+  }
+.bg-transp-dark {
+  background-color: hsla(240,20%,20%,0.7);
+  }
+
 /* the bg image */
 .bg-01 {
   background-image:url('images/lunar_bg-02.svg');
@@ -151,7 +158,31 @@ h1,h2,h3,h4,h5,h6 {
   width: 2rem;
   }
   .w3-landscape {
-  width: 3rem;
+  width: 4rem;
+  }
+  .w4-landscape {
+  width: 8rem;
+  }
+  .w5-landscape {
+  width: 16rem;
+  }
+  .pa2-landscape {
+  padding: 2rem;
+  }
+  .pa3-landscape {
+  padding: 4rem;
+  }
+  .pa4-landscape {
+  padding: 8rem;
+  }
+  .pa5-landscape {
+  padding: 16rem;
+  }
+  .pa6-landscape {
+  padding: 32rem;
+  }
+  .pa7-landscape {
+  padding: 64rem;
   }
   .flex-row-landscape {
   flex-direction: row;
@@ -199,8 +230,35 @@ h1,h2,h3,h4,h5,h6 {
   .w-75-portrait {
   width: 75%;
   }
+  .w2-portrait {
+  width: 2rem;
+  }
   .w3-portrait {
-  width: 3rem;
+  width: 4rem;
+  }
+  .w4-portrait {
+  width: 8rem;
+  }
+  .w5-portrait {
+  width: 16rem;
+  }
+  .pa2-portrait {
+  padding: 2rem;
+  }
+  .pa3-portrait {
+  padding: 4rem;
+  }
+  .pa4-portrait {
+  padding: 8rem;
+  }
+  .pa5-portrait {
+  padding: 16rem;
+  }
+  .pa6-portrait {
+  padding: 32rem;
+  }
+  .pa7-portrait {
+  padding: 64rem;
   }
   .flex-row-portrait {
   flex-direction: row;

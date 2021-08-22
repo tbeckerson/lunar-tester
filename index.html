@@ -22,9 +22,6 @@ bg-transp: 215,58%,28%,0.0
   <div id="right-lander" class="flex flex-row-landscape flex-column-portrait items-center justify-around w-100 w-90-ns w-80-m w-70-l pv3">
 
 {% for item in site.data.download_buttons %}
-  {% capture button_inner %}
-    {% cycle "button_inner": "bg-lunar-light lunar-dark hover-bg-lunar-dark hover-lunar-light", "bg-lunar-dark lunar-light hover-bg-lunar-light hover-lunar-dark"  %}
-  {% endcapture %}
   {% include {{ item.file }} %}
 {% endfor %}
   </div>
