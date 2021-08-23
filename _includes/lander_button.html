@@ -1,7 +1,5 @@
-<div class="flex flex-column items-center justify-start pa3 w-75-l near-white"  style="animation-name: fade-in; animation-duration: 1s;">
+<div class="flex flex-column items-center justify-start pa3 w-75-l near-white"  style="animation-name: fade-in; animation-duration: 3s;">
   <h2 class="">{{ item.name | upcase }}</h2>
-
-
     <div id="content-{{ item.name | slugify: "latin" }}-{{ forloop.index0 }}" class="flex flex-row items-center justify-center w-100">
   {% for sub in item.links %}
       <a class="pa3 mh3 f3 link shadow-1 bg-lunar-light hover-bg-washed-blue lunar-dark br1 tc w4-landscape w5-portrait font-maven" href="{{ sub.link }}">{{ sub.name }}</a>

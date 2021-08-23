@@ -1,0 +1,14 @@
+---
+layout:
+---
+
+{% capture post_styles %}
+  {% cycle  'bg-transp-dark near-white','bg-lunar-light dark-gray', 'bg-transp-light dark-gray', 'bg-lunar-dark near-white' %}
+{% endcapture %}
+<div id="{{ post.title }}_containter" class="w-100 ph3 pv5 flex flex-column items-center justify-start {{ post_styles }}">
+  <div id="{{ post.title }}_content" class="measure-wide">
+    <h1 class="font-maven">{{ post.title | upcase }}</h1>
+    <h3 class="font-maven">{{ post.date | date: '%B %d %Y' }}</h3>
+{{ content }}
+  </div>
+</div>
