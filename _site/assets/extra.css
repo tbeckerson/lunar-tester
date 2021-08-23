@@ -86,10 +86,10 @@ h1,h2,h3,h4,h5,h6 {
   }
 
 .bg-transp-light {
-  background-color: hsla(240,20%,80%,0.7);
+  background-color: hsla(240,0%,100%,0.4);
   }
 .bg-transp-dark {
-  background-color: hsla(240,20%,20%,0.7);
+  background-color: hsla(240,0%,0%,0.4);
   }
 
 /* the bg image */
