@@ -7,7 +7,7 @@ title: News
 <h1 class="font-maven tc dark-gray pt5">{{ page.title | upcase }}</h1>
 {% for post in site.posts %}
 <div id="{{ post.title }}_containter" class="w-100 ph3 pv5 flex flex-column items-center justify-start dark-gray">
-  <div id="{{ post.title }}_content" class="measure-wide" style="animation-name: fade-in; animation-duration: 1s;">
+  <div id="{{ post.title }}_content" class="measure-wide anchor-lunar-dark" style="animation-name: fade-in; animation-duration: 1s;">
     <h2 class="font-maven lunar-dark">{{ post.title | upcase }}</h2>
     <h3 class="font-maven lunar-dark">{{ post.date | date: '%B %d %Y' }}</h3>
   {{ post }}
