@@ -147,23 +147,23 @@ h1,h2,h3,h4,h5,h6 {
 .plx {
   position:relative;
   overflow-x: hidden;
-  overflow-y: scroll;
-  perspective: 2px;
-  perspective-origin: 50% 100%;
+  overflow-y: auto;
+  perspective: 1px;
+  perspective-origin: 50% 50%;
 }
+
 .plx-back {
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  transform: translateZ(-3px) scale(3.5);
-  transform-origin: center center;
+  transform: translateZ(-2px) scale(3.5);
 }
 
 .plx-fore {
   margin-top: auto;
-  transform-origin: 50%;
+  transform-origin: bottom center;
   transform: translateZ(0px) scale(1);
 }
 
