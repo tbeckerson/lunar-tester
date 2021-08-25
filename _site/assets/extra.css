@@ -3,6 +3,7 @@ html {
   scroll-behavior: smooth;
   }
 
+
 /* tachyons doesn't have these normally ? */
 .bg-fixed {
   background-attachment: fixed;
@@ -12,6 +13,9 @@ html {
   background-attachment: scroll;
   }
 
+.sticky {
+  position: sticky;
+  }
 
 #about-content a:link {
   text-decoration: underline;
@@ -43,10 +47,6 @@ html {
   color: #ffe0ff;
   }
 
-.p-50 p {
-  width: 50%;
-  }
-
 
 /* the padding defaults are terrible, assign it as needed */
 h1,h2,h3,h4,h5,h6 {
@@ -62,49 +62,60 @@ h1,h2,h3,h4,h5,h6 {
   font-family: 'Catamaran', sans-serif;
   }
 
+
 /* lunar colours */  
 .bg-blue-moon {
   background-color: #505058;
   }
 .lunar-dark,
 .hover-lunar-dark:hover {
-  color: #162d50;
+  color: #19314d;
   }
 .bg-lunar-dark,
 .hover-bg-lunar-dark:hover,
 .active-bg-lunar-dark:checked {
-  background-color: #162d50;
+  background-color: #19314d;
   }
 .lunar-light,
 .hover-lunar-light:hover {
-  color: #6a98c8;
+  color: #698aaf;
   }
 .bg-lunar-light,
 .hover-bg-lunar-light:hover,
 .active-bg-lunar-light:checked {
-  background-color: #6a98c8;
+  background-color: #698aaf;
   }
 
+.anchor-lunar-dark a {
+  color: #2d2d2d;
+  }
+.anchor-lunar-light a {
+  color: #ececff;
+  }
+.anchor-lunar-light a:hover {
+  color: #ffffff;
+  }
 .bg-transp-light {
-  background-color: hsla(240,0%,100%,0.4);
+  background-color: hsla(240,20%,90%,0.5);
   }
 .bg-transp-dark {
-  background-color: hsla(240,0%,0%,0.4);
+  background-color: hsla(240,20%,10%,0.5);
+  }
+/* overriding the default, for accessability improvement */
+.dark-gray {
+  color: #2d2d2d;
   }
 
+  
 /* the bg image */
-.bg-01 {
-  background-image:url('images/lunar_bg-02.svg');
-  overflow-x:hidden;
-  overflow-y:hidden;
+.bg-01-light {
+  background-image:url('images/lunar_bg-02-light.svg');
   }
-.bg-02 {
-  background-image:url('images/bg-01-2x.jpg');
-  overflow-x:hidden;
+.bg-01-dark {
+  background-image:url('images/lunar_bg-02-dark.svg');
   }
 .bg-03 {
   background-image:url('images/bg-02-2x.jpg');
-  overflow-x:hidden;
   }
 
 /* animations */
@@ -127,6 +138,30 @@ h1,h2,h3,h4,h5,h6 {
     {opacity:1; margin-top: 0vh;}
 }
 
+/* parallax */
+
+.plx {
+  position:relative;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  perspective: 2px;
+  perspective-origin: 50% 100%;
+}
+.plx-back {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateZ(-3px) scale(3.5);
+  transform-origin: center center;
+}
+
+.plx-fore {
+  margin-top: auto;
+  transform-origin: 50%;
+  transform: translateZ(0px) scale(1);
+}
 
 /* burger menu */
 #main-menu {

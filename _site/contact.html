@@ -1,4 +1,4 @@
-<section id="contact" class="w-100 flex flex-column items-center justify-start pv5 bg-lunar-dark near-white">
+<section id="contact" class="w-100 flex flex-column items-center justify-start pv5 bg-transparent near-white relative z-2">
 
   <div class="measure-wide">
 {% capture contact_section %}
@@ -8,7 +8,7 @@
   </div>
 <div class="flex flex-column-portrait flex-row-landscape items-center items-start-landscape justify-around font-maven tc pv2">
 {% for item in site.data.contact_links %}
-  <a class="br3 white link bg-animate hover-bg-lunar-light hover-lunar-dark" href="{{ item.link }}">
+  <a class="br3 near-white link bg-animate hover-bg-lunar-dark hover-lunar-light" href="{{ item.link }}">
     <figure><img src="{{ item.src }}" alt="{{ item.alt }}" class="w4" />
     <figcaption class="f3">{{ item.name }}</figcaption>
     </figure>

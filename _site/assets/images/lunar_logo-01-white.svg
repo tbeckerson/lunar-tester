@@ -31,7 +31,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.62633161"
-     inkscape:cx="666.5798"
+     inkscape:cx="59.872437"
      inkscape:cy="369.61251"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -81,11 +81,11 @@
      id="layer1">
     <path
        id="path1924"
-       style="fill:#7ca5cf;fill-opacity:1;stroke:none;stroke-width:3.89112;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       style="fill:#698aaf;fill-opacity:1;stroke:none;stroke-width:3.89112;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 293.82617,2.8125 a 210.48006,210.48006 0 0 1 96.21875,176.70312 210.48006,210.48006 0 0 1 -61.68164,148.10743 213.16889,209.13356 44.792565 0 1 -0.36133,0.38086 213.16889,209.13356 44.792565 0 1 -0.13867,0.11718 210.48006,210.48006 0 0 1 -148.29883,61.875 A 210.48006,210.48006 0 0 1 2.59375,293.4375 259.1143,254.2092 44.792593 0 0 75.576172,435.11719 259.1143,254.2092 44.792593 0 0 438.57422,438.52344 259.1143,254.2092 44.792593 0 0 435.04688,75.578125 259.1143,254.2092 44.792593 0 0 293.82617,2.8125 Z"
        transform="translate(-902.1432,-646.79731)" />
     <circle
-       style="fill:#162d50;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       style="fill:#19314d;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
        id="path1266"
        cx="-722.57861"
        cy="-467.2821"
