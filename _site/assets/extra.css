@@ -177,6 +177,9 @@ h1,h2,h3,h4,h5,h6 {
 
 @media
   (orientation: landscape) {
+  .dn-landscape {
+  display: none;
+  }
   .hmn-100-landscape {
   min-height:100vh;
   }
@@ -256,6 +259,9 @@ h1,h2,h3,h4,h5,h6 {
 
 @media
   (orientation: portrait) {
+  .dn-portrait {
+  display: none;
+  }
   .h-50-portrait {
   height: 50%;
   }
@@ -362,7 +368,7 @@ h1,h2,h3,h4,h5,h6 {
   }
 }
 
-/* old phones and up */
+/* mid-old phones and up */
 @media screen and
   (min-resolution: 232dpi) {
   .dn-192 {
