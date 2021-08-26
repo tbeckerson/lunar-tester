@@ -3,10 +3,10 @@ layout: default_lightnav
 title: News
 ---
 
-<section id="news" class="w-100 pt4 bg-01-light bg-fixed bg-top cover">
+<section id="news" class="hmn-100-landscape w-100 bg-lunar-light pt4 bg-01-light bg-fixed cover">
 <h1 class="font-maven tc dark-gray pt5">{{ page.title | upcase }}</h1>
 {% for post in site.posts %}
-<div id="{{ post.title }}_containter" class="w-100 ph3 pv5 flex flex-column items-center justify-start dark-gray">
+<div id="{{ post.title }}_containter" class="w-100 ph3 pv5 flex flex-column items-center justify-start dark-gray relative z-3">
   <div id="{{ post.title }}_content" class="measure-wide anchor-lunar-dark" style="animation-name: fade-in; animation-duration: 1s;">
     <h2 class="font-maven lunar-dark">{{ post.title | upcase }}</h2>
     <h3 class="font-maven lunar-dark">{{ post.date | date: '%B %d %Y' }}</h3>

@@ -3,7 +3,10 @@ html {
   scroll-behavior: smooth;
   }
 
-
+body {
+  max-width: 100%;
+  min-height: 100vh;
+  }
 /* tachyons doesn't have these normally ? */
 .bg-fixed {
   background-attachment: fixed;
@@ -138,30 +141,6 @@ h1,h2,h3,h4,h5,h6 {
     {opacity:1; margin-top: 0vh;}
 }
 
-/* parallax */
-
-.plx {
-  position:relative;
-  overflow-x: hidden;
-  overflow-y: auto;
-  perspective: 1px;
-  perspective-origin: 50% 50%;
-}
-
-.plx-back {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  transform: translateZ(-2px) scale(3.5);
-}
-
-.plx-fore {
-  margin-top: auto;
-  transform-origin: bottom center;
-  transform: translateZ(0px) scale(1);
-}
 
 /* burger menu */
 #main-menu {
