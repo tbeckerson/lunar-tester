@@ -30,9 +30,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.27914398"
-     inkscape:cx="16.120713"
-     inkscape:cy="865.14493"
+     inkscape:zoom="57.256899"
+     inkscape:cx="1372.6294"
+     inkscape:cy="370.37458"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -52,7 +52,12 @@
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="true"
      inkscape:bbox-nodes="true"
-     inkscape:snap-bbox-edge-midpoints="true" />
+     inkscape:snap-bbox-edge-midpoints="true">
+    <sodipodi:guide
+       position="1380.5782,212.68817"
+       orientation="1,0"
+       id="guide406446" />
+  </sodipodi:namedview>
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -71,7 +76,7 @@
      id="layer1">
     <g
        id="g38728"
-       transform="matrix(0.84869357,0,0,0.84869357,-157.4123,-89.57399)"
+       transform="matrix(0.84869357,0,0,0.84869357,-157.16955,-89.573776)"
        style="fill:#6a98c8;fill-opacity:1">
       <path
          d="M 43.791011,-173.68075 V -277.03063 H 82.62108 v 73.82134 h 42.19962 v 29.52854 z"

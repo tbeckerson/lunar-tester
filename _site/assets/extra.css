@@ -16,6 +16,10 @@ body {
   background-attachment: scroll;
   }
 
+.bg-top-mid {
+  background-position: 50% -50%;
+  background-repeat: no-repeat;
+  }
 .sticky {
   position: sticky;
   }
@@ -54,9 +58,14 @@ body {
 /* the padding defaults are terrible, assign it as needed */
 h1,h2,h3,h4,h5,h6 {
   padding: 0;
-  letter-spacing: .1em;  
+  font-family: 'Kanit', sans-serif;
   }
-
+h1,h2,h3 {
+  letter-spacing: .2em;
+  }
+h4,h5,h6 {
+  letter-spacing: .1em;
+  }
 /* name our two fonts */
 .font-maven {
   font-family: 'Maven Pro', sans-serif;
@@ -67,8 +76,8 @@ h1,h2,h3,h4,h5,h6 {
 .font-open-sans {
   font-family: 'Open Sans', sans-serif;
   }
-.font-nunito {
-  font-family: 'Nunito', sans-serif;
+.font-kanit {
+  font-family: 'Kanit', sans-serif;
   }
 
 
