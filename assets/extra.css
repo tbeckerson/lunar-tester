@@ -43,10 +43,6 @@ body {
   background-attachment: scroll;
   }
 
-.bg-top-mid {
-  background-position: 50% -50%;
-  background-repeat: no-repeat;
-  }
 .sticky {
   position: sticky;
   }
@@ -184,6 +180,13 @@ h4,h5,h6 {
 
 @media
   (orientation: landscape) {
+.bg-fixed {
+  background-attachment: fixed;
+  }
+.bg-top-mid {
+  background-position: center -55%;
+  background-repeat: no-repeat;
+  }
   .dn-landscape {
   display: none;
   }
@@ -266,6 +269,13 @@ h4,h5,h6 {
 
 @media
   (orientation: portrait) {
+  .bg-fixed {
+  background-attachment: scroll;
+  }
+.bg-top-mid {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  }
   .dn-portrait {
   display: none;
   }
